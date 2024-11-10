@@ -26,7 +26,7 @@ data:extend(
 		{
 			result = "y_tgb",
 			condition_size = 3,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 		

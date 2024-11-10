@@ -23,7 +23,7 @@ data:extend(
 		{
 			result = "y_path_checker",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

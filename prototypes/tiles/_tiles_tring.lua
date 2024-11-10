@@ -22,7 +22,7 @@ data:extend(
 		{
 			result = "y_tring",
 			condition_size = 3,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

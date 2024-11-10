@@ -6,7 +6,7 @@ data:extend({
 
 --ID:388
 {
-   type="item", name="yir_diesel_monument", icon_size=32, icon="__yi_railway__/graphics/icons/yir_diesel_monument_icon.png", 
+   type="item", name="yir_diesel_monument", icon_size = 32, icon="__yi_railway__/graphics/icons/yir_diesel_monument_icon.png", 
    group="yuoki_railway", subgroup="yir_workshop", order="D",  
    stack_size = 10, default_request_amount = 5,
    place_result="yir_diesel_monument", 

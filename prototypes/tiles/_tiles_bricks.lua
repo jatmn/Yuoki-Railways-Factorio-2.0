@@ -24,7 +24,7 @@ data:extend(
 		{
 			result = "yir_brick1_tile",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	
@@ -104,7 +104,7 @@ data:extend(
 		{
 			result = "yir_brick2_tile",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

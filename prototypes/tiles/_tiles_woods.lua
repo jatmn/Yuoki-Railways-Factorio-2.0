@@ -24,7 +24,7 @@ data:extend(
 		{
 			result = "yir_wood1_tile",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

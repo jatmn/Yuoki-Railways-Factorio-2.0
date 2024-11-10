@@ -185,7 +185,7 @@ data:extend(
 		{
 			result = "yir_muster1_tile",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

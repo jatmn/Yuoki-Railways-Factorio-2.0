@@ -23,7 +23,7 @@ data:extend(
 		{
 			result = "y_path_labor",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	
@@ -117,7 +117,7 @@ data:extend(
 		{
 			result = "y_path_science",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	

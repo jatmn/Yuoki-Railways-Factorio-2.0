@@ -55,7 +55,7 @@ data:extend(
 	]]
 	
 	{ type = "recipe", name = "yir_metal2_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal2_tile", category = "yir_rc_tiles", result_count = 4 },	
-	{ type = "item", name = "yir_metal2_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_gitter.png", subgroup = "yir_floor_line3", order = "metal-2", stack_size = 500, place_as_tile = { result = "yir_metal2_tile", condition_size = 2, condition = { "water-tile" }} },	
+	{ type = "item", name = "yir_metal2_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_gitter.png", subgroup = "yir_floor_line3", order = "metal-2", stack_size = 500, place_as_tile = { result = "yir_metal2_tile", condition_size = 2, condition = {layers={water_tile=true}}} },	
 	{
 		type = "tile",
 		name = "yir_metal2_tile",
@@ -80,7 +80,7 @@ data:extend(
 	},	
 
 	{ type = "recipe", name = "yir_metal3_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal3_tile", category = "yir_rc_tiles", result_count = 4 },	
-	{ type = "item", name = "yir_metal3_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_3.png", subgroup = "yir_floor_line3", order = "metal-3", stack_size = 500, place_as_tile = { result = "yir_metal3_tile", condition_size = 2, condition = { "water-tile" }} },	
+	{ type = "item", name = "yir_metal3_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_3.png", subgroup = "yir_floor_line3", order = "metal-3", stack_size = 500, place_as_tile = { result = "yir_metal3_tile", condition_size = 2, condition = {layers={water_tile=true}}} },	
 	{
 		type = "tile",
 		name = "yir_metal3_tile",
@@ -105,7 +105,7 @@ data:extend(
 	},	
 
 	{ type = "recipe", name = "yir_metal4_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal4_tile", category = "yir_rc_tiles", result_count = 4 },	
-	{ type = "item", name = "yir_metal4_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_4.png", subgroup = "yir_floor_line3", order = "metal-4", stack_size = 500, place_as_tile = { result = "yir_metal4_tile", condition_size = 2, condition = { "water-tile" }} },	
+	{ type = "item", name = "yir_metal4_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_4.png", subgroup = "yir_floor_line3", order = "metal-4", stack_size = 500, place_as_tile = { result = "yir_metal4_tile", condition_size = 2, condition = {layers={water_tile=true}}} },	
 	{
 		type = "tile",
 		name = "yir_metal4_tile",

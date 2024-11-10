@@ -23,7 +23,7 @@ data:extend(
 		{
 			result = "yir_stony_tile",
 			condition_size = 2,
-			condition = { "water-tile" }
+			condition = {layers={water_tile=true}}
 		}
 	},
 	
