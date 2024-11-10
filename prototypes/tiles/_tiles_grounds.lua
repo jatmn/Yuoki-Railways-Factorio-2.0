@@ -167,11 +167,14 @@ data:extend(
 		name = "yir_muster1_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"stone", 4},{"coal", 1},},
-		result= "yir_muster1_tile",
+		ingredients = {
+			{type="item", name="stone",  amount=4},
+			{type="item", name="coal",  amount=1},
+		},
+		results = {{type="item", name="yir_muster1_tile", amount=8},},
+		main_product = "yir_muster1_tile",
 		category = "yir_rc_tiles",
 		order = "ground-3",
-		result_count = 8
 	},
 	
 	{

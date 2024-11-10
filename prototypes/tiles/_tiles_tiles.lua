@@ -6,10 +6,13 @@ data:extend(
 		name = "yir_tile1_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"iron-plate", 1},{"yir_color_blue", 1},},
-		result= "yir_tile1_tile",
+		ingredients = {
+			{type="item", name="iron-plate",  amount=1},
+			{type="item", name="yir_color_blue",  amount=1},
+		},
+		results = {{type="item", name="yir_tile1_tile", amount=4},},
+		main_product = "yir_tile1_tile",
 		category = "yir_rc_tiles",
-		result_count = 4
 	},
 	
 	{
@@ -100,10 +103,13 @@ data:extend(
 		name = "yir_tile2_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"iron-plate", 1},{"yir_color_green", 1},},
-		result= "yir_tile2_tile",
+		ingredients = {
+			{type="item", name="iron-plate",  amount=1},
+			{type="item", name="yir_color_green",  amount=1},
+		},
+		results = {{type="item", name="yir_tile2_tile", amount=4},},
+		main_product = "yir_tile2_tile",
 		category = "yir_rc_tiles",
-		result_count = 4
 	},
 	
 	{
@@ -194,10 +200,13 @@ data:extend(
 		name = "yir_tile3_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"iron-plate", 1},{"yir_color_red", 1},},
-		result= "yir_tile3_tile",
+		ingredients = {
+			{type="item", name="iron-plate",  amount=1},
+			{type="item", name="yir_color_red",  amount=1},
+		},
+		results = {{type="item", name="yir_tile3_tile", amount=4},},
+		main_product = "yir_tile3_tile",
 		category = "yir_rc_tiles",
-		result_count = 4
 	},
 	
 	{

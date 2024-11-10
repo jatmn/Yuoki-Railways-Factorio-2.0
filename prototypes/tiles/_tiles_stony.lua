@@ -6,10 +6,12 @@ data:extend(
 		name = "yir_stony_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"stone-brick", 4},},
-		result= "yir_stony_tile",
+		ingredients = {
+			{type="item", name="stone-brick",  amount=4},
+		},
+		results = {{type="item", name="yir_stony_tile", amount=4},},
+		main_product = "yir_stony_tile",
 		category = "yir_rc_tiles",
-		result_count = 4
 	},
 	
 	{

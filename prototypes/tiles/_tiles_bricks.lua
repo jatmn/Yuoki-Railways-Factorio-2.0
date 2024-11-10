@@ -6,11 +6,14 @@ data:extend(
 		name = "yir_brick1_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"stone-brick", 4},{"yir_color_red", 1},},
-		result= "yir_brick1_tile",
+		ingredients = {
+			{type="item", name="stone-brick",  amount=4},
+			{type="item", name="yir_color_red",  amount=1},
+		},
+		results = {{type="item", name="yir_brick1_tile", amount=12},},
+		main_product = "yir_brick1_tile",
 		category = "yir_rc_tiles",
 		order = "brick-1",
-		result_count = 12
 	},
 	
 	{
@@ -86,11 +89,14 @@ data:extend(
 		name = "yir_brick2_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"stone-brick", 4},{"yir_color_red", 1},},
-		result= "yir_brick2_tile",
+		ingredients = {
+			{type="item", name="stone-brick",  amount=4},
+			{type="item", name="yir_color_red",  amount=1},
+		},
+		results = {{type="item", name="yir_brick2_tile", amount=12},},
+		main_product = "yir_brick2_tile",
 		category = "yir_rc_tiles",
 		order = "brick-2",
-		result_count = 12
 	},
 	
 	{

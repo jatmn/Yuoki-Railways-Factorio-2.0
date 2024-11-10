@@ -395,6 +395,7 @@ data:extend(
 		results = {
 			{ type = "item", name = "y_loco_steam_wt450", amount = 1.0, },
 		},
+		main_product = "y_loco_steam_wt450",
 		icon = "__yi_railway__/graphics/entity/railway/sewt_bl_icon.png",icon_size = 32,
 		order = "a6", group = "yuoki_railway", subgroup = "yir_locomotives_steam",
 	},

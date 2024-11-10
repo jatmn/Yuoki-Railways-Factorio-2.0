@@ -6,10 +6,12 @@ data:extend(
 		name = "yir_wood1_tile",
 		energy_required = 2,
 		enabled = true,		
-		ingredients = {{"wood", 4},},
-		result= "yir_wood1_tile",
+		ingredients = {
+			{type="item", name="wood",  amount=4},
+		},
+		results = {{type="item", name="yir_wood1_tile", amount=4},},
+		main_product = "yir_wood1_tile",
 		category = "yir_rc_tiles",
-		result_count = 4,
 		order = "wood-1",
 	},
 	

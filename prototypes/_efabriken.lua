@@ -358,10 +358,15 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yir_future_monument",
-		ingredients = {{"steel-plate",34},{"logistic-science-pack",20},{"production-science-pack",10},{"utility-science-pack",8},},
-		result = "yir_future_monument",
+		ingredients = {
+			{type="item", name="steel-plate", amount=34},
+			{type="item", name="logistic-science-pack", amount=20},
+			{type="item", name="production-science-pack", amount=10},
+			{type="item", name="utility-science-pack", amount=8},
+		},
+		results = {{type="item", name="yir_future_monument", amount=1},},
+		main_product = "yir_future_monument",
 		enabled = true,		
-		result_count = 1,
 		group = "yuoki_railway",
 		subgroup = "yir_railyardliquid", order="X3",			
 	},		
@@ -456,10 +461,15 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yir_factory_chemical",
-		ingredients = {{"iron-plate",8},{"steel-plate",2},{"iron-gear-wheel",2},{"yir_brick1_tile",34}},
-		result = "yir_factory_chemical",
-		enabled = true,		
-		result_count = 1,
+		ingredients = {
+			{type="item", name="iron-plate", amount=8},
+			{type="item", name="steel-plate", amount=2},
+			{type="item", name="iron-gear-wheel", amount=2},
+			{type="item", name="yir_brick1_tile", amount=34}
+		},
+		results = {{type="item", name="yir_factory_chemical", amount=1},},
+		main_product = "yir_factory_chemical",
+		enabled = true,
 		group = "yuoki_railway",
 		subgroup = "yir_railyardliquid",			
 	},		
