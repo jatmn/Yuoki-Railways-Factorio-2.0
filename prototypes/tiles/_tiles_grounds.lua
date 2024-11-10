@@ -4,7 +4,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "yir_ground1_tile_recipe",
+		name = "yir_ground1_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone", 4},},
@@ -84,7 +84,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_plates2_tile_recipe",
+		name = "yir_plates2_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone", 4},},
@@ -164,7 +164,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_muster1_tile_recipe",
+		name = "yir_muster1_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone", 4},{"coal", 1},},

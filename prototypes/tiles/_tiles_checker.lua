@@ -3,7 +3,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "y_path_checker_recipe",
+		name = "y_path_checker",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 4}, {"y-slag", 4},},

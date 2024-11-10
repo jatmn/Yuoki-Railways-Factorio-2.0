@@ -7,7 +7,7 @@ data:extend({
 	--ID:324 
 	{
 	  type = "recipe",
-	  name = "yir_diesel_monument_recipe",
+	  name = "yir_diesel_monument",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -29,7 +29,7 @@ data:extend({
 	--ID:323 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_fluid_u3_recipe",
+	  name = "yir_fuel_fluid_u3",
 	  category = "advanced-crafting", -- 
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -48,7 +48,7 @@ data:extend({
 	--ID:322 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_fluid_u2_recipe",
+	  name = "yir_fuel_fluid_u2",
 	  category = "advanced-crafting", -- 
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -67,7 +67,7 @@ data:extend({
 	--ID:321 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_fluid_u1_recipe",
+	  name = "yir_fuel_fluid_u1",
 	  category = "advanced-crafting", -- 
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -86,7 +86,7 @@ data:extend({
 	--ID:320 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_energy_u1_recipe",
+	  name = "yir_fuel_energy_u1",
 	  category = "advanced-crafting", -- 
 	  enabled = "true",
 	  energy_required = 30.00,
@@ -104,7 +104,7 @@ data:extend({
 	--ID:306 
 	{
 	  type = "recipe",
-	  name = "yir_lamp_clock_recipe",
+	  name = "yir_lamp_clock",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -125,7 +125,7 @@ data:extend({
 	--ID:305 
 	{
 	  type = "recipe",
-	  name = "yir_lamp_old1_recipe",
+	  name = "yir_lamp_old1",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -145,7 +145,7 @@ data:extend({
 	--ID:304 
 	{
 	  type = "recipe",
-	  name = "yir_lamp_modern_recipe",
+	  name = "yir_lamp_modern",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -165,7 +165,7 @@ data:extend({
 	--ID:303 
 	{
 	  type = "recipe",
-	  name = "yir_future_coin_recipe",
+	  name = "yir_future_coin",
 	  category = "yir_rc_future_monument", -- Future Monument
 	  enabled = "true",
 	  energy_required = 30.00,
@@ -185,7 +185,7 @@ data:extend({
 	--ID:302 
 	{
 	  type = "recipe",
-	  name = "yir_diesel_coin_recipe",
+	  name = "yir_diesel_coin",
 	  category = "yir_rc_diesel_monument", -- Diesel Monument
 	  enabled = "true",
 	  energy_required = 30.00,
@@ -205,7 +205,7 @@ data:extend({
 	--ID:255 
 	{
 	  type = "recipe",
-	  name = "yir_loco_del_KR_recipe",
+	  name = "yir_loco_del_KR",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -228,7 +228,7 @@ data:extend({
 	--ID:254 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_tf_recipe",
+	  name = "yir_4acw_tf",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -250,7 +250,7 @@ data:extend({
 	--ID:253 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_mun_recipe",
+	  name = "yir_4acw_mun",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -272,7 +272,7 @@ data:extend({
 	--ID:252 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_gold_recipe",
+	  name = "yir_4acw_gold",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -294,7 +294,7 @@ data:extend({
 	--ID:251 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_closed_recipe",
+	  name = "yir_4acw_closed",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -316,7 +316,7 @@ data:extend({
 	--ID:250 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_wood_recipe",
+	  name = "yir_4acw_wood",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -337,7 +337,7 @@ data:extend({
 	--ID:249 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_stone_recipe",
+	  name = "yir_4acw_stone",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -359,7 +359,7 @@ data:extend({
 	--ID:248 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_copper_recipe",
+	  name = "yir_4acw_copper",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -381,7 +381,7 @@ data:extend({
 	--ID:247 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_iron_recipe",
+	  name = "yir_4acw_iron",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -403,7 +403,7 @@ data:extend({
 	--ID:246 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_coal_recipe",
+	  name = "yir_4acw_coal",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -425,7 +425,7 @@ data:extend({
 	--ID:172 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_diesel_recipe",
+	  name = "yir_fuel_diesel",
 	  category = "chemistry", -- 
 	  enabled = "true",
 	  energy_required = 6.00,
@@ -446,7 +446,7 @@ data:extend({
 	--ID:171 
 	{
 	  type = "recipe",
-	  name = "yir_fuel_coks_recipe",
+	  name = "yir_fuel_coks",
 	  category = "chemistry", -- 
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -465,7 +465,7 @@ data:extend({
 	--ID:164 
 	{
 	  type = "recipe",
-	  name = "yir_frame_loco_future_recipe",
+	  name = "yir_frame_loco_future",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -489,7 +489,7 @@ data:extend({
 	--ID:163 
 	{
 	  type = "recipe",
-	  name = "yir_frame_loco_diesel_recipe",
+	  name = "yir_frame_loco_diesel",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -513,7 +513,7 @@ data:extend({
 	--ID:162 
 	{
 	  type = "recipe",
-	  name = "yir_frame_loco_steam_recipe",
+	  name = "yir_frame_loco_steam",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -536,7 +536,7 @@ data:extend({
 	--ID:161 
 	{
 	  type = "recipe",
-	  name = "yir_frame_waggon_recipe",
+	  name = "yir_frame_waggon",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -557,7 +557,7 @@ data:extend({
 	--ID:160 
 	{
 	  type = "recipe",
-	  name = "yir_radsatz_locos_recipe",
+	  name = "yir_radsatz_locos",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 6.00,
@@ -577,7 +577,7 @@ data:extend({
 	--ID:159 
 	{
 	  type = "recipe",
-	  name = "yir_radsatz_waggon_recipe",
+	  name = "yir_radsatz_waggon",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 6.00,
@@ -597,7 +597,7 @@ data:extend({
 	--ID:158 
 	{
 	  type = "recipe",
-	  name = "yir_color_white_recipe",
+	  name = "yir_color_white",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -616,7 +616,7 @@ data:extend({
 	--ID:157 
 	{
 	  type = "recipe",
-	  name = "yir_color_green_recipe",
+	  name = "yir_color_green",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -635,7 +635,7 @@ data:extend({
 	--ID:156 
 	{
 	  type = "recipe",
-	  name = "yir_color_black_recipe",
+	  name = "yir_color_black",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -654,7 +654,7 @@ data:extend({
 	--ID:155 
 	{
 	  type = "recipe",
-	  name = "yir_color_blue_recipe",
+	  name = "yir_color_blue",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -673,7 +673,7 @@ data:extend({
 	--ID:154 
 	{
 	  type = "recipe",
-	  name = "yir_color_red_recipe",
+	  name = "yir_color_red",
 	  category = "yir_rc_material", -- Factory for Material
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -692,7 +692,7 @@ data:extend({
 	--ID:149 
 	{
 	  type = "recipe",
-	  name = "yir_loco_fesw_op_recipe",
+	  name = "yir_loco_fesw_op",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -713,7 +713,7 @@ data:extend({
 	--ID:148 
 	{
 	  type = "recipe",
-	  name = "yir_2acw_wood_recipe",
+	  name = "yir_2acw_wood",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -734,7 +734,7 @@ data:extend({
 	--ID:147 
 	{
 	  type = "recipe",
-	  name = "yir_2acw_3blocks_recipe",
+	  name = "yir_2acw_3blocks",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -755,7 +755,7 @@ data:extend({
 	--ID:146 
 	{
 	  type = "recipe",
-	  name = "y_loco_desw_recipe",
+	  name = "y_loco_desw",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -777,7 +777,7 @@ data:extend({
 	--ID:145 
 	{
 	  type = "recipe",
-	  name = "y_loco_desw_orange_recipe",
+	  name = "y_loco_desw_orange",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -800,7 +800,7 @@ data:extend({
 	--ID:144 
 	{
 	  type = "recipe",
-	  name = "y_loco_desw_blue_recipe",
+	  name = "y_loco_desw_blue",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -823,7 +823,7 @@ data:extend({
 	--ID:143 
 	{
 	  type = "recipe",
-	  name = "y_loco_ses_std_recipe",
+	  name = "y_loco_ses_std",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -846,7 +846,7 @@ data:extend({
 	--ID:142 
 	{
 	  type = "recipe",
-	  name = "y_loco_ses_red_recipe",
+	  name = "y_loco_ses_red",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -868,7 +868,7 @@ data:extend({
 	--ID:141 
 	{
 	  type = "recipe",
-	  name = "y_wagon_trans_recipe",
+	  name = "y_wagon_trans",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -889,7 +889,7 @@ data:extend({
 	--ID:140 
 	{
 	  type = "recipe",
-	  name = "y_wagon_coal_recipe",
+	  name = "y_wagon_coal",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -911,7 +911,7 @@ data:extend({
 	--ID:139 
 	{
 	  type = "recipe",
-	  name = "y_wagon_copper_recipe",
+	  name = "y_wagon_copper",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -933,7 +933,7 @@ data:extend({
 	--ID:138 
 	{
 	  type = "recipe",
-	  name = "y_wagon_iron_recipe",
+	  name = "y_wagon_iron",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -955,7 +955,7 @@ data:extend({
 	--ID:137 
 	{
 	  type = "recipe",
-	  name = "y_wagon_stone_recipe",
+	  name = "y_wagon_stone",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -977,7 +977,7 @@ data:extend({
 	--ID:136 
 	{
 	  type = "recipe",
-	  name = "yir_factory_loco_recipe",
+	  name = "yir_factory_loco",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -999,7 +999,7 @@ data:extend({
 	--ID:135 
 	{
 	  type = "recipe",
-	  name = "yir_factory_wagon_recipe",
+	  name = "yir_factory_wagon",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1020,7 +1020,7 @@ data:extend({
 	--ID:134 
 	{
 	  type = "recipe",
-	  name = "yir_factory_tiles_recipe",
+	  name = "yir_factory_tiles",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1042,7 +1042,7 @@ data:extend({
 	--ID:133 
 	{
 	  type = "recipe",
-	  name = "yir_factory_material_recipe",
+	  name = "yir_factory_material",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1064,7 +1064,7 @@ data:extend({
 	--ID:132 
 	{
 	  type = "recipe",
-	  name = "yir_factory_stuff_recipe",
+	  name = "yir_factory_stuff",
 	  category = "crafting", -- 
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1086,7 +1086,7 @@ data:extend({
 	--ID:131 
 	{
 	  type = "recipe",
-	  name = "yir_coins_gen1_recipe",
+	  name = "yir_coins_gen1",
 	  category = "yir_rc_stuff", -- YIR-Coin generation
 	  enabled = "true",
 	  energy_required = 30.00,
@@ -1107,7 +1107,7 @@ data:extend({
 	--ID:130 
 	{
 	  type = "recipe",
-	  name = "y_path_labor_recipe",
+	  name = "y_path_labor",
 	  category = "yir_rc_tiles", -- Factory for Tiles
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -1126,7 +1126,7 @@ data:extend({
 	--ID:129 
 	{
 	  type = "recipe",
-	  name = "y_path_science_recipe",
+	  name = "y_path_science",
 	  category = "yir_rc_tiles", -- Factory for Tiles
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -1145,7 +1145,7 @@ data:extend({
 	--ID:127 
 	{
 	  type = "recipe",
-	  name = "y_tring_recipe",
+	  name = "y_tring",
 	  category = "yir_rc_tiles", -- Factory for Tiles
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -1165,7 +1165,7 @@ data:extend({
 	--ID:126 
 	{
 	  type = "recipe",
-	  name = "y_path_checker_recipe",
+	  name = "y_path_checker",
 	  category = "yir_rc_tiles", -- Factory for Tiles
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -1185,7 +1185,7 @@ data:extend({
 	--ID:125 
 	{
 	  type = "recipe",
-	  name = "y_tgb_recipe",
+	  name = "y_tgb",
 	  category = "yir_rc_tiles", -- Factory for Tiles
 	  enabled = "true",
 	  energy_required = 2.00,
@@ -1205,7 +1205,7 @@ data:extend({
 	--ID:124 
 	{
 	  type = "recipe",
-	  name = "y_loco_emd1500black_v2_recipe",
+	  name = "y_loco_emd1500black_v2",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1268,7 +1268,7 @@ data:extend({
 	--ID:121 
 	{
 	  type = "recipe",
-	  name = "yir_loco_sel_blue_recipe",
+	  name = "yir_loco_sel_blue",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1291,7 +1291,7 @@ data:extend({
 	--ID:120 
 	{
 	  type = "recipe",
-	  name = "yir_loco_de_bluegray_recipe",
+	  name = "yir_loco_de_bluegray",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1311,7 +1311,7 @@ data:extend({
 	--ID:119 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_purple_recipe",
+	  name = "yir_4acw_purple",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -1331,7 +1331,7 @@ data:extend({
 	--ID:118 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_oceanblue_recipe",
+	  name = "yir_4acw_oceanblue",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -1351,7 +1351,7 @@ data:extend({
 	--ID:117 
 	{
 	  type = "recipe",
-	  name = "yir_4acw_grey_recipe",
+	  name = "yir_4acw_grey",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -1371,7 +1371,7 @@ data:extend({
 	--ID:104 
 	{
 	  type = "recipe",
-	  name = "y_wagon_tank_fm2_recipe",
+	  name = "y_wagon_tank_fm2",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -1391,7 +1391,7 @@ data:extend({
 	--ID:103 
 	{
 	  type = "recipe",
-	  name = "y_wagon_tank_fm1_recipe",
+	  name = "y_wagon_tank_fm1",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 4.00,
@@ -1411,7 +1411,7 @@ data:extend({
 	--ID:102 
 	{
 	  type = "recipe",
-	  name = "y_loco_fs_steam_green_recipe",
+	  name = "y_loco_fs_steam_green",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1433,7 +1433,7 @@ data:extend({
 	--ID:101 
 	{
 	  type = "recipe",
-	  name = "y_loco_emd3000_white_recipe",
+	  name = "y_loco_emd3000_white",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1453,7 +1453,7 @@ data:extend({
 	--ID:100 
 	{
 	  type = "recipe",
-	  name = "y_wagon_tender_green_recipe",
+	  name = "y_wagon_tender_green",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1475,7 +1475,7 @@ data:extend({
 	--ID:99 
 	{
 	  type = "recipe",
-	  name = "y_wagon_tender_black_recipe",
+	  name = "y_wagon_tender_black",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1497,7 +1497,7 @@ data:extend({
 	--ID:98 
 	{
 	  type = "recipe",
-	  name = "y_wagon_hopper_yellow_recipe",
+	  name = "y_wagon_hopper_yellow",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1520,7 +1520,7 @@ data:extend({
 	--ID:97 
 	{
 	  type = "recipe",
-	  name = "y_wagon_corn_blue_recipe",
+	  name = "y_wagon_corn_blue",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1543,7 +1543,7 @@ data:extend({
 	--ID:96 
 	{
 	  type = "recipe",
-	  name = "y_wagon_corn_green_recipe",
+	  name = "y_wagon_corn_green",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1565,7 +1565,7 @@ data:extend({
 	--ID:95 
 	{
 	  type = "recipe",
-	  name = "y_wagon_zement_white_recipe",
+	  name = "y_wagon_zement_white",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1588,7 +1588,7 @@ data:extend({
 	--ID:94 
 	{
 	  type = "recipe",
-	  name = "y_wagon_zement_gray_recipe",
+	  name = "y_wagon_zement_gray",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1611,7 +1611,7 @@ data:extend({
 	--ID:93 
 	{
 	  type = "recipe",
-	  name = "y_loco_emd1500blue_recipe",
+	  name = "y_loco_emd1500blue",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1635,7 +1635,7 @@ data:extend({
 	--ID:92 
 	{
 	  type = "recipe",
-	  name = "y_loco_emd1500black_recipe",
+	  name = "y_loco_emd1500black",
 	  category = "yir_rc_wsl", -- Workshop for Locomotives
 	  enabled = "true",
 	  energy_required = 5.00,
@@ -1657,7 +1657,7 @@ data:extend({
 	--ID:91 
 	{
 	  type = "recipe",
-	  name = "yir_wagon2a_tank_orange_recipe",
+	  name = "yir_wagon2a_tank_orange",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1680,7 +1680,7 @@ data:extend({
 	--ID:90 
 	{
 	  type = "recipe",
-	  name = "yir_wagon2a_tank_blue_recipe",
+	  name = "yir_wagon2a_tank_blue",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -1703,7 +1703,7 @@ data:extend({
 	--ID:89 
 	{
 	  type = "recipe",
-	  name = "yir_wagon2a_closed_recipe",
+	  name = "yir_wagon2a_closed",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,

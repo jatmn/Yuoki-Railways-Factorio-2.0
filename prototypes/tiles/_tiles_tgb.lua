@@ -4,7 +4,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "y_tgb_recipe",
+		name = "y_tgb",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"steel-plate", 2},},

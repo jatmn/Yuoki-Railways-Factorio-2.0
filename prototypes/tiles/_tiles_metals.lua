@@ -1,7 +1,7 @@
 data:extend(
 {
 	--[[
-	{ type = "recipe", name = "yir_metal1_tile_recipe", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal1_tile", category = "yir_rc_tiles", result_count = 4 },	
+	{ type = "recipe", name = "yir_metal1_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal1_tile", category = "yir_rc_tiles", result_count = 4 },	
 	{ type = "item", name = "yir_metal1_tile", icon = "__yi_railway__/graphics/entity/path_tiles/metal_1.png", subgroup = "yir_floor_line3", order = "metal-1", stack_size = 500, icon_size = 32, place_as_tile = { result = "yir_metal1_tile", condition_size = 2, condition = { "water-tile" }} },	
 	{
 		type = "tile",
@@ -54,7 +54,7 @@ data:extend(
 	},	
 	]]
 	
-	{ type = "recipe", name = "yir_metal2_tile_recipe", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal2_tile", category = "yir_rc_tiles", result_count = 4 },	
+	{ type = "recipe", name = "yir_metal2_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal2_tile", category = "yir_rc_tiles", result_count = 4 },	
 	{ type = "item", name = "yir_metal2_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_gitter.png", subgroup = "yir_floor_line3", order = "metal-2", stack_size = 500, place_as_tile = { result = "yir_metal2_tile", condition_size = 2, condition = { "water-tile" }} },	
 	{
 		type = "tile",
@@ -79,7 +79,7 @@ data:extend(
 		map_color={r=90, g=70, b=50}, ageing=0, vehicle_friction_modifier = stone_path_vehicle_speed_modifier
 	},	
 
-	{ type = "recipe", name = "yir_metal3_tile_recipe", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal3_tile", category = "yir_rc_tiles", result_count = 4 },	
+	{ type = "recipe", name = "yir_metal3_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal3_tile", category = "yir_rc_tiles", result_count = 4 },	
 	{ type = "item", name = "yir_metal3_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_3.png", subgroup = "yir_floor_line3", order = "metal-3", stack_size = 500, place_as_tile = { result = "yir_metal3_tile", condition_size = 2, condition = { "water-tile" }} },	
 	{
 		type = "tile",
@@ -104,7 +104,7 @@ data:extend(
 		map_color={r=90, g=70, b=50}, ageing=0, vehicle_friction_modifier = stone_path_vehicle_speed_modifier
 	},	
 
-	{ type = "recipe", name = "yir_metal4_tile_recipe", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal4_tile", category = "yir_rc_tiles", result_count = 4 },	
+	{ type = "recipe", name = "yir_metal4_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal4_tile", category = "yir_rc_tiles", result_count = 4 },	
 	{ type = "item", name = "yir_metal4_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/metal_4.png", subgroup = "yir_floor_line3", order = "metal-4", stack_size = 500, place_as_tile = { result = "yir_metal4_tile", condition_size = 2, condition = { "water-tile" }} },	
 	{
 		type = "tile",
@@ -130,7 +130,7 @@ data:extend(
 	},	
 
 	--[[
-	{ type = "recipe", name = "yir_metal5_tile_recipe", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal5_tile", category = "yir_rc_tiles", result_count = 4 },	
+	{ type = "recipe", name = "yir_metal5_tile", energy_required = 2, enabled = true, ingredients = {{"iron-plate", 1},}, result= "yir_metal5_tile", category = "yir_rc_tiles", result_count = 4 },	
 	{ type = "item", name = "yir_metal5_tile", icon_size = 32, icon = "__yi_railway__/graphics/entity/path_tiles/vent_round.png", subgroup = "yir_floor_line3", order = "vent-3", stack_size = 500, place_as_tile = { result = "yir_metal5_tile", condition_size = 2, condition = { "water-tile" }} },	
 	{
 		type = "tile",

@@ -529,7 +529,7 @@ data:extend(
 	-- Tankwagen Oil - 21706-12
 	{
 	  type = "recipe",
-	  name = "yir_fw4a_tank_oil_recipe",
+	  name = "yir_fw4a_tank_oil",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,
@@ -694,7 +694,7 @@ data:extend(
 	-- Special Green Tank - 21706-16
 	{
 	  type = "recipe",
-	  name = "yir_fw4_vc_recipe",
+	  name = "yir_fw4_vc",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,

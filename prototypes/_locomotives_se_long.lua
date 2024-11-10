@@ -382,7 +382,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_loco_steam_wt450_recipe",
+		name = "y_loco_steam_wt450",
 		category = "yir_rc_wsl", -- Workshop for Locomotives
 		enabled = "true",
 		energy_required = 5.00,

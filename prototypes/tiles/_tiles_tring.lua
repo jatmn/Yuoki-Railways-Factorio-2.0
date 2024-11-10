@@ -3,7 +3,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "y_tring_recipe",
+		name = "y_tring",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 2}, {"iron-stick", 4},},

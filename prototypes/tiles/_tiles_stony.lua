@@ -3,7 +3,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_stony_tile_recipe",
+		name = "yir_stony_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone-brick", 4},},

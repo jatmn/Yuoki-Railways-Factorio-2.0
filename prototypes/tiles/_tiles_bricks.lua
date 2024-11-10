@@ -3,7 +3,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_brick1_tile_recipe",
+		name = "yir_brick1_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone-brick", 4},{"yir_color_red", 1},},
@@ -83,7 +83,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_brick2_tile_recipe",
+		name = "yir_brick2_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone-brick", 4},{"yir_color_red", 1},},

@@ -752,7 +752,7 @@ data:extend(
 	-- Special Green - 21706-14
 	{
 	  type = "recipe",
-	  name = "yir_4acw_vc_recipe",
+	  name = "yir_4acw_vc",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 3.00,

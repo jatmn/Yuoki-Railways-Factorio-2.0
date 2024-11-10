@@ -7,7 +7,7 @@ data:extend(
 
 	{
 	  type = "recipe",
-	  name = "yir_loco_fut_red_recipe",
+	  name = "yir_loco_fut_red",
 	  category = "yir_rc_wsl", -- Workshop for Cargo Wagons
 	  enabled = "true",
 	  energy_required = 5.00,

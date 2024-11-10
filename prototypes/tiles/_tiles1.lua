@@ -4,7 +4,7 @@ data:extend(
 	--[[ 
 	{
 		type = "recipe",
-		name = "y_path_labor_recipe",
+		name = "y_path_labor",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 4},{"y-refined-yres2", 2}, {"y-crystal2", 1},},
@@ -98,7 +98,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "y_path_science_recipe",
+		name = "y_path_science",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 4}, {"y-refined-yres1", 1},},
@@ -190,7 +190,7 @@ data:extend(
 	--[[
 	{
 		type = "recipe",
-		name = "y_path_slag_recipe",
+		name = "y_path_slag",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"stone", 2}, {"y-slag", 6},},

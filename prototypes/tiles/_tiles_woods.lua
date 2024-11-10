@@ -3,7 +3,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_wood1_tile_recipe",
+		name = "yir_wood1_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"wood", 4},},

@@ -3,7 +3,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_grating_tile_recipe",
+		name = "yir_grating_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-stick", 6},},

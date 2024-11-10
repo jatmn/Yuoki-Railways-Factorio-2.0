@@ -3,7 +3,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yir_tile1_tile_recipe",
+		name = "yir_tile1_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 1},{"yir_color_blue", 1},},
@@ -97,7 +97,7 @@ data:extend(
 	},
 	{
 		type = "recipe",
-		name = "yir_tile2_tile_recipe",
+		name = "yir_tile2_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 1},{"yir_color_green", 1},},
@@ -191,7 +191,7 @@ data:extend(
 	},
 	{
 		type = "recipe",
-		name = "yir_tile3_tile_recipe",
+		name = "yir_tile3_tile",
 		energy_required = 2,
 		enabled = true,		
 		ingredients = {{"iron-plate", 1},{"yir_color_red", 1},},
