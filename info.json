@@ -2,10 +2,15 @@
 {
 "name": "yi_railway",
 "title": "Yuoki Industries - Railways",
-"version": "1.1.28",
-"date": "2020-11-27",
-"author": "Yuoki Tani",
-"factorio_version": "1.1",
-"dependencies": ["base >= 0.18.9"],
-"description": "decorative railway mod"
+"version": "1.2.0",
+"date": "2024-11-10",
+"author": "YuokiTani",
+"contact": "https://discord.gg/fM6NjWabAA",
+"homepage": "https://github.com/jatmn/Yuoki-Railways-Factorio-2.0",
+"factorio_version": "2.0",
+"dependencies": [
+    "base >= 2.0",
+    "Yuoki >= 1.2.3"
+],
+"description": "Yuoki Industries - Railways (Addon)\n decorative railway mod"
 }

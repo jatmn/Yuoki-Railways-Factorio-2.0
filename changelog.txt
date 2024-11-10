@@ -1,24 +1,68 @@
-yi_railway_0.8.27
-	- pollution-fix provided by ChurchOrganist
-
-yi_railway_0.8.26
-	- compatible factorio 0.18.12
-	- reorganized recipe-lines
-	- little tweaks in wagon-dimensions
-	
-yi_railway_0.8.25
-	- compatible factorio 0.18.0
-	- some floor-tiles removed
-
-yi_railway_0.7.24
-	- compatible factorio 0.17.48
-	- locomotives and cargo-wagon now on map (same as vanilla)
-	- Thunder-Skys-locomotive changed graphic
-	
-	
-yi_railway_0.7.23
-	- compatible factorio 0.17.31
-	- tiles should now remove underlaying decoration
-
-yi_railway_0.7.22
-	first version for factorio 0.17.0
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 10. 11. 2024
+  Major Features:
+    - Updated for Factorio 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.8.27
+  Updates:
+    - pollution-fix provided by ChurchOrganist
+---------------------------------------------------------------------------------------------------
+Version: 0.8.26
+  Updates:
+    - compatible factorio 0.18.12
+    - reorganized recipe-lines
+    - little tweaks in wagon-dimensions
+---------------------------------------------------------------------------------------------------
+Version: 0.8.25
+  Updates:
+    - compatible factorio 0.18.0
+    - some floor-tiles removed
+---------------------------------------------------------------------------------------------------
+Version: 0.7.24
+  Updates:
+    - compatible factorio 0.17.48
+    - locomotives and cargo-wagon now on map (same as vanilla)
+    - Thunder-Skys-locomotive changed graphic
+---------------------------------------------------------------------------------------------------
+Version: 0.7.23
+  Updates:
+    - compatible factorio 0.17.31
+    - tiles should now remove underlaying decoration
+---------------------------------------------------------------------------------------------------
+Version: 0.7.22
+  Major Features:
+    - first version for factorio 0.17.0
+---------------------------------------------------------------------------------------------------
+Version: 0.4.16
+  Updates:
+    - fixes the Steam-Era-Coin generation
+---------------------------------------------------------------------------------------------------
+Version: 0.4.14
+  Updates:
+    - locomotive workshop and cargo-wagon-workshop now 6x6 to match rail-connection
+    - added 9 different long cargo-wagons
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+  Updates:
+    - somehow it works now with 0.13.1
+    - green steam-locomotive can be color-coded
+    - some ground-floor-recipes removed
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+  Updates:
+    - somewho it works now with 0.13
+    - some recipes changed (version-upgrade casualties)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+  Updates:
+    - most temporary recipes changed to final
+    - new Ground Tiles
+    - 3 new fuel types with low-stack-sizes for use in locomotives
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+  Updates:
+    - new graphic for Tile-Factory
+    - most temporary recipes changed to final
+    - Part-Factory
+    - new Locomotive and Cargo-Waggon Parts
