@@ -755,7 +755,7 @@ data:extend(
 	  type = "recipe",
 	  name = "yir_4acw_vc",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "yir_frame_waggon" , amount = 1, },

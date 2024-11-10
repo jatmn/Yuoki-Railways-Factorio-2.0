@@ -10,7 +10,7 @@ data:extend(
 	  type = "recipe",
 	  name = "yir_loco_fut_red",
 	  category = "yir_rc_wsl", -- Workshop for Cargo Wagons
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 5.00,
 	  ingredients = {
   		{ type = "item", name = "yir_future_coin" , amount = 5, },

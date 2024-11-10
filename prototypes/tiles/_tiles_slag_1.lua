@@ -5,7 +5,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_path_slag",
 	  category = "yir_rc_tiles", -- Factory for Tiles
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 2.00,
 	  ingredients = {		
 		{ type = "item", name = "stone" , amount = 6.0, },

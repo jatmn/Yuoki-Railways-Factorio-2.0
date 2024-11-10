@@ -385,7 +385,7 @@ data:extend(
 		type = "recipe",
 		name = "y_loco_steam_wt450",
 		category = "yir_rc_wsl", -- Workshop for Locomotives
-		enabled = "true",
+		enabled = true,
 		energy_required = 5.00,
 		ingredients = {
 			{ type = "item", name = "y_loco_ses_std" , amount = 1.0, },

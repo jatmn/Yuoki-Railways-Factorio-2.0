@@ -532,7 +532,7 @@ data:extend(
 	  type = "recipe",
 	  name = "yir_fw4a_tank_oil",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "yir_frame_waggon" , amount = 1, },
@@ -697,7 +697,7 @@ data:extend(
 	  type = "recipe",
 	  name = "yir_fw4_vc",
 	  category = "yir_rc_wsw", -- Workshop for Cargo Wagons
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "yir_frame_waggon" , amount = 1, },
