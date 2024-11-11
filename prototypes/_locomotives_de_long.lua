@@ -68,9 +68,10 @@ data:extend(
 		energy_per_hit_point = 25,
 		resistances = {{type = "impact",decrease = 50,percent = 60},},
 		
-		burner =
+		energy_source = 
 		{
-			fuel_category = "yr_future",
+			type = "burner",
+			fuel_categories = {"yr_future"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -126,6 +127,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512, height = 512, scale = 0.5,
 			direction_count = 128,
@@ -143,6 +145,7 @@ data:extend(
 			line_length = 4,
 			lines_per_file = 4,
 			shift = {0, -0.625}
+			},
 		},
 		minimap_representation =
 		{
@@ -254,9 +257,10 @@ data:extend(
 		energy_per_hit_point = 5,
 		resistances = {{type = "impact",decrease = 50,percent = 60},},
 		
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1.2,
 			fuel_inventory_size = 3,
 			smoke =
@@ -312,6 +316,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -324,6 +329,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			}
 		},
 		minimap_representation =
 		{
@@ -434,9 +440,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -492,6 +499,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -504,6 +512,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			}
 		},
 		minimap_representation =
 		{
@@ -612,9 +621,10 @@ data:extend(
 			{type = "acid",decrease = 10,percent = 20}
 		},
 		
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1.1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -670,6 +680,8 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
+
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -682,6 +694,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			}
 		},
 		minimap_representation =
 		{
@@ -789,9 +802,10 @@ data:extend(
 			{type = "acid",decrease = 10,percent = 20}
 		},
 		
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1.1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -847,6 +861,8 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
+
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -859,6 +875,8 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
+	
 		},
 		minimap_representation =
 		{

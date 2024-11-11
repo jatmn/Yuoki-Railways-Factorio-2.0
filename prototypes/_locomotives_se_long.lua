@@ -37,9 +37,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "chemical",
+			type = "burner",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 1,
 			smoke =
@@ -95,8 +96,8 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
-			layers = {
-				{	
+			rotated = {
+					
 					priority = "very-low",
 					width = 256,
 					height = 256,
@@ -127,8 +128,9 @@ data:extend(
 					lines_per_file = 8,
 					shift = {0.45, -1.125},					
 					apply_runtime_tint = true,
-				},				
-			},
+				},		
+			
+			
 		},
 		minimap_representation =
 		{
@@ -236,9 +238,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "chemical",
+			type = "burner",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -295,6 +298,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -307,6 +311,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation =
 		{
@@ -444,9 +449,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "chemical",
+			type = "burner",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -503,6 +509,7 @@ data:extend(
 		
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512,
 			height = 512,
@@ -522,6 +529,7 @@ data:extend(
 			lines_per_file = 4,
 			shift = {0, -1.125},
 			scale = 0.5,
+		}
 			
 		},
 		minimap_representation =

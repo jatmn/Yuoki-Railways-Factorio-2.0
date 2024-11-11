@@ -91,6 +91,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -100,6 +101,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			}
 		},
 		minimap_representation =
 		{
@@ -215,6 +217,7 @@ data:extend(
 		},
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -224,6 +227,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			}
 		},
 		minimap_representation =
 		{
@@ -344,6 +348,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512,
 			height = 512,
@@ -359,6 +364,7 @@ data:extend(
 			line_length = 4,
 			lines_per_file = 4,
 			shift = {0.42, -1}
+		}
 		},
 		minimap_representation =
 		{
@@ -479,6 +485,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512, height = 512, scale = 0.5,
 			back_equals_front = true,
@@ -492,6 +499,7 @@ data:extend(
 			line_length = 4,
 			lines_per_file = 4,
 			shift = {0.42, -1}
+		}
 		},
 		minimap_representation =
 		{
@@ -644,6 +652,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512, height = 512, scale = 0.5,
 			back_equals_front = true,
@@ -657,6 +666,7 @@ data:extend(
 			line_length = 4,
 			lines_per_file = 4,
 			shift = {0.42, -1}
+		}
 		},
 		minimap_representation =
 		{
@@ -805,6 +815,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 512, height = 512, scale = 0.5,
 			back_equals_front = true,
@@ -818,6 +829,7 @@ data:extend(
 			line_length = 4,
 			lines_per_file = 4,
 			shift = {0.42, -0.875}
+		}
 		},
 		minimap_representation =
 		{

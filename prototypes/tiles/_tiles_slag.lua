@@ -1,3 +1,5 @@
+local tile_collision_masks = require("__base__/prototypes/tile/tile-collision-masks")
+
 data:extend(
 {
 	--[[
@@ -22,7 +24,7 @@ data:extend(
 		needs_correction = false,
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_path_slag"},
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-		collision_mask = {"ground-tile"},
+		collision_mask = tile_collision_masks.ground,
 		walking_speed_modifier = 1.2,
 		layer = 59, decorative_removal_probability = 1.0,
 		variants =

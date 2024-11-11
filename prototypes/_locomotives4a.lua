@@ -38,9 +38,9 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
-		{
-			fuel_category = "yr_diesel",
+		energy_source = {
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 2,
 			smoke =
@@ -96,18 +96,21 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
-			priority = "very-low",
-			width = 256,
-			height = 256,
-			direction_count = 128,
-			filenames =
-			{
-				"__yi_railway__/graphics/entity/railway/emd-1500blue_sheet-0-old.png",
-				"__yi_railway__/graphics/entity/railway/emd-1500blue_sheet-1-old.png",
+			rotated = {
+					priority = "very-low",
+					width = 256,
+					height = 256,
+					direction_count = 128,
+					filenames =
+					{
+						"__yi_railway__/graphics/entity/railway/emd-1500blue_sheet-0-old.png",
+						"__yi_railway__/graphics/entity/railway/emd-1500blue_sheet-1-old.png",
+					},
+					line_length = 8,
+					lines_per_file = 8,
+					shift = {0.42, -1.125}
+
 			},
-			line_length = 8,
-			lines_per_file = 8,
-			shift = {0.42, -1.125}
 		},
 		minimap_representation =
 		{
@@ -216,9 +219,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
-		{
-			fuel_category = "yr_diesel",
+		energy_source =
+		{	
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 2,
 			smoke =
@@ -274,6 +278,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -286,6 +291,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation =
 		{
@@ -395,9 +401,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -453,6 +460,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -465,6 +473,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation =
 		{
@@ -574,9 +583,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_diesel",
+			type = "burner",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -632,6 +642,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -644,6 +655,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation =
 		{
@@ -753,9 +765,10 @@ data:extend(
 			{type = "explosion",decrease = 15,percent = 30},
 			{type = "acid",decrease = 10,percent = 20}
 		},
-		burner =
+		energy_source =
 		{
-			fuel_category = "yr_future",
+			type = "burner",
+			fuel_categories = {"yr_future"},
 			effectivity = 1,
 			fuel_inventory_size = 3,
 			smoke =
@@ -811,6 +824,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -823,6 +837,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation =
 		{

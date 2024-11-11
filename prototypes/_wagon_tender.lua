@@ -38,6 +38,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -50,6 +51,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},		
 		minimap_representation = {
 			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
@@ -120,6 +122,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -132,6 +135,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+		}
 		},
 		minimap_representation = {
 			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",

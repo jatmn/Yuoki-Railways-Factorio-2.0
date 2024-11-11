@@ -32,10 +32,10 @@ data:extend(
 			--type = "electric",
 			--usage_priority = "secondary-input",
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 1,						
-			emissions_per_minute = 40,			
+			emissions_per_minute = { pollution = 40},			
 			smoke =
 			{
 				{
@@ -88,10 +88,10 @@ data:extend(
 			--type = "electric",
 			--usage_priority = "secondary-input",
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 1,			
-			emissions_per_minute = 32,
+			emissions_per_minute = { pollution = 32},
 			smoke = {{ name = "smoke", deviation = {0.1, 0.1}, frequency = 5 }}			
 		},
 		energy_usage = "2000kW",
@@ -138,10 +138,10 @@ data:extend(
 			--usage_priority = "secondary-input",
 			--emissions = 0.04 / 2.5
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 0.8,
 			fuel_inventory_size = 1,			
-			emissions_per_minute = 12.8,
+			emissions_per_minute = { pollution = 12.8},
 			smoke = {
 				{ name = "smoke", position = {-0.8, -1.5}, height = 1, deviation = {0.1, 0.1}, frequency = 25 },
 				{ name = "smoke", position = { 0.8, -1.5}, height = 1, deviation = {0.1, 0.1}, frequency = 25 }
@@ -191,10 +191,10 @@ data:extend(
 			--usage_priority = "secondary-input",
 			--emissions = 0.04 / 2.5
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 0.8,
 			fuel_inventory_size = 1,			
-			emissions_per_minute = 22.4,
+			emissions_per_minute = { pollution = 22.4},
 			smoke = {
 				{ name = "smoke", position = {-0.75, -1.25}, height = 1, deviation = {0.1, 0.1}, frequency = 75 },				
 			}			
@@ -245,10 +245,10 @@ data:extend(
 			--type = "electric",
 			--usage_priority = "secondary-input",			
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 1,
 			fuel_inventory_size = 1,			
-			emissions_per_minute = 24,			
+			emissions_per_minute = { pollution = 24},			
 			smoke =
 			{
 				{
@@ -292,15 +292,17 @@ data:extend(
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 		fast_replaceable_group = "assembling-machine",
 
-		fluid_boxes =
+		fluid_box =
 		{
-			{
-				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -3} }}
-			},
+			volume = 200,
+			production_type = "input",
+			--pipe_covers = pipecoverspictures(),
+			base_area = 10,
+			base_level = -1,
+			pipe_connections = {
+				{flow_direction="input", direction = defines.direction.north, position = {0, -3}}
+			}
+		
 		},
 				
 		animation =
@@ -322,10 +324,10 @@ data:extend(
 			--type = "electric",
 			--usage_priority = "secondary-input",			
 			type = "burner",
-			fuel_category = "yr_diesel",
+			fuel_categories = {"yr_diesel"},
 			effectivity = 1,
 			fuel_inventory_size = 2,			
-			emissions_per_minute = 40,			
+			emissions_per_minute = { pollution = 40},			
 			smoke =
 			{
 				{
@@ -392,16 +394,18 @@ data:extend(
 		collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 		fast_replaceable_group = "assembling-machine",
-		
-		fluid_boxes =
+
+		fluid_box =
 		{
-			{
-				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -3} }}
-			},
+			volume = 200,
+			production_type = "input",
+			--pipe_covers = pipecoverspictures(),
+			base_area = 10,
+			base_level = -1,
+			pipe_connections = {
+				{flow_direction="input", direction = defines.direction.north, position = {0, -3}}
+			}
+		
 		},
 								
 		animation =
@@ -423,10 +427,10 @@ data:extend(
 			--type = "electric",
 			--usage_priority = "secondary-input",			
 			type = "burner",
-			fuel_category = "yr_future",
+			fuel_categories = {"yr_future"},
 			effectivity = 1,
 			fuel_inventory_size = 2,			
-			emissions_per_minute = 64,			
+			emissions_per_minute = { pollution = 64},			
 			smoke =
 			{
 				{
@@ -495,16 +499,19 @@ data:extend(
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
 		fast_replaceable_group = "assembling-machine",
-
-		fluid_boxes =
+		
+		fluid_box =
 		{
-			{
-				production_type = "input",			
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -2} }}
-			},
-		},				
+			volume = 200,
+			production_type = "input",
+			--pipe_covers = pipecoverspictures(),
+			base_area = 10,
+			base_level = -1,
+			pipe_connections = {
+				{flow_direction="input", direction = defines.direction.north, position = {0, -2}}
+			}
+		
+		},
 		
 		animation =
 		{			
