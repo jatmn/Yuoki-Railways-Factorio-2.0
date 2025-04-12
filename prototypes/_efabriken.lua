@@ -458,10 +458,8 @@ data:extend(
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},		
 		order="b",
 		subgroup = "yir_railyardliquid",
-	},			
-	
-	
-	
+	},
+
 	{
 		type = "recipe",
 		name = "yir_factory_chemical",
@@ -475,9 +473,9 @@ data:extend(
 		main_product = "yir_factory_chemical",
 		enabled = true,
 		group = "yuoki_railway",
-		subgroup = "yir_railyardliquid",			
-	},		
-		
+		subgroup = "yir_railyardliquid",
+	},
+
 	{
 		type="item", name="yir_factory_chemical", icon = "__yi_railway__/graphics/entity/factorys/chemie_32.png",
 		group="yuoki_railway", subgroup="yir_railyardliquid", 
@@ -485,7 +483,7 @@ data:extend(
 		stack_size=10, 
 		place_result="yir_factory_chemical", 
 	},
-	
+
 	{
 		type = "assembling-machine",
 		name = "yir_factory_chemical",
@@ -512,16 +510,21 @@ data:extend(
 			}
 		
 		},
-		
+		graphics_set = {
 		animation =
-		{			
+		{	
+			layers = {		
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/chemie_256.png",			
 			width = 256, height = 256, scale = 0.5, 
 			shift = {0.5, -0.375},
 			frame_count = 1,
 			line_length = 1,			
-			animation_speed = 1,				
-		},		
+			animation_speed = 1,
+				},
+			},
+		},	
+	},
 		crafting_categories = {"yir_fuel", "advanced-crafting"},
 		crafting_speed = 0.5,
 		energy_source = { type = "electric", usage_priority = "secondary-input", },
@@ -533,6 +536,4 @@ data:extend(
 		subgroup = "yir_railyardliquid",
 	},		
 
-	
-	
 })	

@@ -1,4 +1,4 @@
-require ("lib.functions")
+drive_over_tie = require("lib.functions")
 
 data:extend(
 {
@@ -149,14 +149,14 @@ data:extend(
 		},
 		minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
 		},
 		selected_minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
@@ -202,7 +202,7 @@ data:extend(
 				}
 			},
 		},
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -333,14 +333,14 @@ data:extend(
 		},
 		minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
 		},
 		selected_minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
@@ -386,7 +386,7 @@ data:extend(
 				}
 			},
 		},
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -516,14 +516,14 @@ data:extend(
 		},
 		minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
 		},
 		selected_minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
@@ -569,7 +569,7 @@ data:extend(
 				}
 			},
 		},
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -698,14 +698,14 @@ data:extend(
 		},
 		minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
 		},
 		selected_minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
@@ -751,7 +751,7 @@ data:extend(
 				}
 			},
 		},
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -880,14 +880,14 @@ data:extend(
 		},
 		minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
 		},
 		selected_minimap_representation =
 		{
-		  filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+		  filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 		  flags = {"icon"},
 		  size = {20, 40},
 		  scale = 0.5
@@ -933,7 +933,7 @@ data:extend(
 				}
 			},
 		},
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =

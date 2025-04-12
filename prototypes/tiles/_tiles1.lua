@@ -37,7 +37,7 @@ data:extend(
 		needs_correction = false,
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_path_labor"},
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-		collision_mask = tile_collision_masks.ground,
+		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.2,
 		layer = 59,
 		decorative_removal_probability = 1.0,
@@ -136,7 +136,7 @@ data:extend(
 		needs_correction = false,
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_path_science"},
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-		collision_mask = tile_collision_masks.ground,
+		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.2,
 		layer = 59, decorative_removal_probability = 1.0,
 		variants =

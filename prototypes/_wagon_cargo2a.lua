@@ -1,4 +1,8 @@
-require ("lib.functions")
+require("lib.functions")-- require("__base__.prototypes.entity.trains")
+
+--local sounds = require("__base__.prototypes.entity.sounds")
+--local hit_effects = require("__base__.prototypes.entity.hit-effects")
+
 
 
 data:extend(
@@ -52,13 +56,13 @@ data:extend(
 			}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -66,7 +70,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{
@@ -131,13 +135,13 @@ data:extend(
 			}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -145,7 +149,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{
@@ -210,13 +214,13 @@ data:extend(
 			}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -224,7 +228,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{
@@ -289,13 +293,13 @@ data:extend(
 			}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -303,7 +307,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{
@@ -368,13 +372,13 @@ data:extend(
 			}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -382,7 +386,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{
@@ -454,13 +458,13 @@ data:extend(
 		}
 		},
 		minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
 		},
 		selected_minimap_representation = {
-			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+			filename = "__base__/graphics/entity/cargo-wagon/minimap-representation/cargo-wagon-selected-minimap-representation.png",
 			flags = {"icon"},
 			size = {20, 40},
 			scale = 0.5
@@ -468,7 +472,7 @@ data:extend(
 
 		wheels = standard_train_wheels,
 		rail_category = "regular",
-		drive_over_tie_trigger = drive_over_tie(),
+		drive_over_tie_trigger = yir_drive_over_tie(),
 		tie_distance = 50,
 		working_sound =
 		{

@@ -18,29 +18,34 @@ standard_train_wheels =
 
 no_wheels =
 {
-	priority = "very-low",
-	width = 1,
-	height = 1,
-	direction_count = 1,
-	filenames =
-	{
-		"__yi_railway__/graphics/entity/railway/empty.png",		
-	},
-	line_length = 1,
-	lines_per_file = 1,
+    rotated =
+    {
+      priority = "very-low",
+      width = 1,
+      height = 1,
+      direction_count = 1,
+      filenames =
+      {
+        "__yi_railway__/graphics/entity/railway/empty.png",
+      },
+      line_length = 1,
+      lines_per_file = 1,
+    },
 }
 
 standard_wagon_wheels =
 {
-	priority = "very-low",
-	width = 1,
-	height = 1,
-	direction_count = 1,
-	filenames =
-	{
-		"__yi_railway__/graphics/entity/railway/empty.png",		
-	},
-	line_length = 1,
-	lines_per_file = 1,
+    rotated =
+    {
+      priority = "very-low",
+      width = 1,
+      height = 1,
+      direction_count = 1,
+      filenames =
+      {
+        "__yi_railway__/graphics/entity/railway/empty.png",
+      },
+      line_length = 1,
+      lines_per_file = 1,
+    },
 }
-

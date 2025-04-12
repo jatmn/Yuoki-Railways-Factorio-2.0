@@ -16,28 +16,28 @@ data:extend({
    type="item", name="yir_fuel_fluid_u3", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_gas.png", 
    group="yuoki_railway", subgroup="yir_support", order="f4",  
    stack_size = 2500, default_request_amount = 100,
-   fuel_value="2MJ", fuel_categories = {"yr_diesel"},
+   fuel_value="2MJ", fuel_category = "yr_diesel",
 },
 --ID:386
 {
    type="item", name="yir_fuel_fluid_u2", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_light.png", 
    group="yuoki_railway", subgroup="yir_support", order="f5",  
    stack_size = 2500, default_request_amount = 100,
-   fuel_value="4MJ", fuel_categories = {"yr_diesel"},
+   fuel_value="4MJ", fuel_category = "yr_diesel",
 },
 --ID:385
 {
    type="item", name="yir_fuel_fluid_u1", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_diesel.png", 
    group="yuoki_railway", subgroup="yir_support", order="f6",  
    stack_size = 2500, default_request_amount = 100,
-   fuel_value="3MJ", fuel_categories = {"yr_diesel"},
+   fuel_value="3MJ", fuel_category = "yr_diesel",
 },
 --ID:384
 {
    type="item", name="yir_fuel_energy_u1", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_energy.png", 
    group="yuoki_railway", subgroup="yir_support", order="f6",  
    stack_size = 2500, default_request_amount = 100,
-   fuel_value="10MJ", fuel_categories = {"yr_future"},
+   fuel_value="10MJ", fuel_category = "yr_diesel",
 },
 --ID:364
 {
@@ -147,21 +147,21 @@ data:extend({
    type="item", name="yir_fuel_energy", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_cell_e.png", 
    group="yuoki_railway", subgroup="yir_support", order="f3",  
    stack_size = 30, default_request_amount = 20,
-   fuel_value="40MJ", fuel_categories = {"chemical"},
+   fuel_value="40MJ", fuel_category = "chemical",
 },
 --ID:281
 {
    type="item", name="yir_fuel_diesel", icon_size=32, icon="__yi_railway__/graphics/icons/diesel.png", 
    group="yuoki_railway", subgroup="yir_support", order="f2",  
    stack_size = 50, default_request_amount = 20,
-   fuel_value="50MJ", fuel_categories = {"yr_diesel"},
+   fuel_value="50MJ", fuel_category = "yr_diesel",
 },
 --ID:280
 {
    type="item", name="yir_fuel_coks", icon_size=32, icon="__yi_railway__/graphics/icons/coks.png", 
    group="yuoki_railway", subgroup="yir_support", order="f1",  
    stack_size = 30, default_request_amount = 20,
-   fuel_value="35MJ", fuel_categories = {"chemical"},
+   fuel_value="35MJ", fuel_category = "chemical",
 },
 --ID:272
 {
