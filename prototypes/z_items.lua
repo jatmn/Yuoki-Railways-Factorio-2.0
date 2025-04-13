@@ -37,7 +37,7 @@ data:extend({
    type="item", name="yir_fuel_energy_u1", icon_size=32, icon="__yi_railway__/graphics/icons/fuel_energy.png", 
    group="yuoki_railway", subgroup="yir_support", order="f6",  
    stack_size = 2500, default_request_amount = 100,
-   fuel_value="10MJ", fuel_category = "yr_diesel",
+   fuel_value="10MJ", fuel_category = "yr_future",
 },
 --ID:364
 {
