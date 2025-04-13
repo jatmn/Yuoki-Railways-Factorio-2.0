@@ -15,8 +15,13 @@ data:extend(
 		selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
 		--fast_replaceable_group = "assembling-machine",
 
+		graphics_set = 
+		{
 		animation =
-		{			
+		{
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/yir_fac_loco.png",			
 			width = 224,
 			height = 224,
@@ -24,7 +29,10 @@ data:extend(
 			frame_count = 1,
 			line_length = 1,			
 			--animation_speed = 0.25
-		},		
+				},
+			},
+		},	
+	},
 		crafting_categories = {"yir_rc_wsl"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -70,9 +78,13 @@ data:extend(
 		collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
 		selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
 		--fast_replaceable_group = "assembling-machine",
-
+		graphics_set =
+		{
 		animation =
-		{			
+		{
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/cw_ws_sheet.png",			
 			width = 224,
 			height = 224,
@@ -80,7 +92,10 @@ data:extend(
 			frame_count = 4,
 			line_length = 4,			
 			animation_speed = 0.25
-		},		
+				},
+			},
+		},	
+	},
 		crafting_categories = {"yir_rc_wsw"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -119,9 +134,13 @@ data:extend(
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
-
+		graphics_set = 
+		{
 		animation =
 		{			
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/yir_fac_tiles2_sheet.png",			
 			width = 160,
 			height = 160,
@@ -129,7 +148,10 @@ data:extend(
 			frame_count = 16,
 			line_length = 4,			
 			animation_speed = 1,
-		},		
+				},
+			},
+		},	
+	},
 		crafting_categories = {"yir_rc_tiles"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -151,7 +173,7 @@ data:extend(
 		ingredient_count = 6,				
 		module_specification =
 		{
-			module_slots = 1,			
+			module_slots = 1,
 		},
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},		
 		
@@ -173,8 +195,13 @@ data:extend(
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
 
+		graphics_set = 
+		{
 		animation =
-		{			
+		{
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/yir_fac_parts_sheet.png",			
 			width = 128,
 			height = 128,
@@ -182,7 +209,10 @@ data:extend(
 			frame_count = 16,
 			line_length = 4,			
 			animation_speed = 1,
-		},		
+				},
+			},
+		},	
+	},
 		crafting_categories = {"yir_rc_material"},
 		crafting_speed = 1,
 		energy_source =
@@ -226,9 +256,13 @@ data:extend(
 		collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 		fast_replaceable_group = "assembling-machine",
-
+		graphics_set = 
+		{
 		animation =
 		{			
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/yir_fab_coins_sheet.png",			
 			width = 192,
 			height = 192,
@@ -236,7 +270,10 @@ data:extend(
 			frame_count = 16,
 			line_length = 4,			
 			animation_speed = 1,				
+				},
+			},
 		},		
+	},
 		crafting_categories = {"yir_rc_stuff"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -268,12 +305,9 @@ data:extend(
 			},			
 		},
 		energy_usage = "1500kW",
-		ingredient_count = 3,				
-		module_specification =
-		{
-			module_slots = 0,			
-		},
-		allowed_effects = {"consumption", "speed", "productivity", "pollution"},		
+		ingredient_count = 3,
+		module_specification = { module_slots = 0,	},
+		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="a[atomics]",
 		subgroup = "yir_workshop",
 	},		
@@ -292,30 +326,36 @@ data:extend(
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 		fast_replaceable_group = "assembling-machine",
 
-		fluid_box =
+		fluid_boxes =
 		{
-			volume = 200,
+			{
 			production_type = "input",
-			--pipe_covers = pipecoverspictures(),
-			base_area = 10,
-			base_level = -1,
-			pipe_connections = {
-				{flow_direction="input", direction = defines.direction.north, position = {0, -3}}
-			}
-		
+			--pipe_picture = assembler2pipepictures(),
+			pipe_covers = pipecoverspictures(),
+			volume = 1000,
+			pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = {0, 2} }},
+
+		  },
 		},
-				
-		animation =
-		{			
-			filename = "__yi_railway__/graphics/entity/factorys/diesel_monument_sheet.png",			
-			width = 384,
-			height = 384,
-			shift = {0.5, 0.375},
-			frame_count = 16,
-			line_length = 4,			
-			animation_speed = 1,				
-			scale=0.5,
-		},		
+		graphics_set = 
+		{
+			animation =
+				{
+					layers = 
+						{
+							{
+								filename = "__yi_railway__/graphics/entity/factorys/diesel_monument_sheet.png",			
+								width = 384,
+								height = 384,
+								shift = {0.5, 0.375},
+								frame_count = 16,
+								line_length = 4,
+								animation_speed = 1,
+								scale=0.5,
+							},
+						},
+				},
+		},
 		crafting_categories = {"yir_rc_diesel_monument"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -407,9 +447,13 @@ data:extend(
 			}
 		
 		},
-								
+		graphics_set = 
+			{
 		animation =
 		{			
+			layers = 
+			{
+				{
 			filename = "__yi_railway__/graphics/entity/factorys/yir_future_monument.png",			
 			width = 384,
 			height = 384,
@@ -418,7 +462,10 @@ data:extend(
 			line_length = 1,			
 			animation_speed = 1,				
 			scale=0.5,
+				},
+			},
 		},		
+	},
 		crafting_categories = {"yir_rc_future_monument"},
 		crafting_speed = 0.5,
 		energy_source =
@@ -497,18 +544,17 @@ data:extend(
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
 		fast_replaceable_group = "assembling-machine",
-		
-		fluid_box =
-		{
+		fluid_boxes =
+		{ 
+			{
 			volume = 200,
 			production_type = "input",
-			--pipe_covers = pipecoverspictures(),
+			pipe_picture = assembler2pipepictures(),
+			pipe_covers = pipecoverspictures(),
 			base_area = 10,
 			base_level = -1,
-			pipe_connections = {
-				{flow_direction="input", direction = defines.direction.north, position = {0, -2}}
-			}
-		
+			pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = {0, 1} }},
+			},
 		},
 		graphics_set = {
 		animation =
