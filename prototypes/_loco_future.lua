@@ -107,8 +107,8 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/DESW90-OP-icon.png",
 		icon_size = 64,
 		max_health = 650,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-0.85, -1.5}, {0.9, 1.5}},
+		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
+		selection_box = {{-0.9, -2}, {0.9, 2}},
 		drawing_box = {{-1, -1}, {1, 1}},
 		weight = 1500,
 		max_speed = 0.6,
@@ -118,8 +118,8 @@ data:extend({
 		friction_force = 0.0026,
 		air_resistance = 0.003,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3.6,
-		joint_distance = 1.8,
+		connection_distance = 4,
+		joint_distance = 2,
 		energy_per_hit_point = 5,
 		resistances =
 		{

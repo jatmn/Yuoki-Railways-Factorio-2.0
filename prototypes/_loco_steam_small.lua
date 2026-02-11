@@ -18,8 +18,8 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/sea-ss-icon.png",
 		icon_size = 64,
 		max_health = 700,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-0.85, -1.5}, {0.9, 1.5}},
+		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
+		selection_box = {{-0.9, -2}, {0.9, 2}},
 		drawing_box = {{-1, -1}, {1, 1}},
 		weight = 500,
 		max_speed = 0.6,
@@ -29,8 +29,8 @@ data:extend({
 		friction_force = 0.005,
 		air_resistance = 0.005,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3.6,
-		joint_distance = 1.8,
+		connection_distance = 4,
+		joint_distance = 2,
 		energy_per_hit_point = 5,
 		resistances =
 		{
@@ -103,8 +103,8 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/sea-sr-icon.png",
 		icon_size = 64,
 		max_health = 800,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-0.85, -1.5}, {0.9, 1.5}},
+		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
+		selection_box = {{-0.9, -2}, {0.9, 2}},
 		drawing_box = {{-1, -1}, {1, 1}},
 		weight = 500,
 		max_speed = 0.6,
@@ -114,8 +114,8 @@ data:extend({
 		friction_force = 0.002,
 		air_resistance = 0.002,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3.6,
-		joint_distance = 1.8,
+		connection_distance = 4,
+		joint_distance = 2,
 		energy_per_hit_point = 5,
 		resistances =
 		{
