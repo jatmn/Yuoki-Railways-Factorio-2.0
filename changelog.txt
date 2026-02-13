@@ -11,6 +11,7 @@ Date: 29.11.2025
     - TheKingJo: hid unused items
     - TheKingJo: quality of life improvements
     - TheKingJo: added setting that vanilla loco gets nerfed in comparison to modded locos
+    - TheKingJo: added setting that removes mod locos and wagons (use case: wanting to use only addon mods but dependency exists)
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 13. 4. 2025

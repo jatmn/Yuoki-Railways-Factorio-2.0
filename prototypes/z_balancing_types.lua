@@ -282,7 +282,7 @@ local util = {
 					item.drop_sound = data.raw["item-with-entity-data"][vType].drop_sound
 				end
 
-				log(name.." changed")
+				--log(name.." changed")
 			end
 			::continue::
 		end
