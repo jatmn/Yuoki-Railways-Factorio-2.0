@@ -7,10 +7,10 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/rsea_green_icon.png",
 		icon_size = 64,
 		max_health = 1000,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
-		connection_distance = 3, 
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
+		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
 		max_speed = 0.9,
@@ -21,75 +21,67 @@ data:extend({
 		air_resistance = 0.003,
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 1,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "yir_loco_smoke_dark",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 300,
-					position = {0, -2.2},
+					position = { 0, -2.2 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2.5,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
-		working_sound =
-		{
-			sound =
-			{
+		working_sound = {
+			sound = {
 				filename = "__base__/sound/steam-engine-90bpm.ogg",
-				volume = 0.8
+				volume = 0.8,
 			},
 			match_speed_to_activity = true,
 		},
@@ -101,10 +93,10 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/rsea_blue_icon.png",
 		icon_size = 64,
 		max_health = 1200,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
-		connection_distance = 3, 
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
+		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
 		max_speed = 0.85,
@@ -115,75 +107,67 @@ data:extend({
 		air_resistance = 0.002,
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "yir_loco_smoke_dark",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 300,
-					position = {0, -2},
+					position = { 0, -2 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2.5,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
-		working_sound =
-		{
-			sound =
-			{
+		working_sound = {
+			sound = {
 				filename = "__base__/sound/steam-engine-90bpm.ogg",
-				volume = 0.8
+				volume = 0.8,
 			},
 			match_speed_to_activity = true,
 		},
@@ -195,10 +179,10 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/sewt_bl_icon.png",
 		icon_size = 64,
 		max_health = 800,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
-		connection_distance = 3, 
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
+		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
 		max_speed = 0.625,
@@ -209,75 +193,67 @@ data:extend({
 		air_resistance = 0.003,
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "yir_loco_smoke_dark",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 300,
-					position = {0, -3},
+					position = { 0, -3 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2.5,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
-		working_sound =
-		{
-			sound =
-			{
+		working_sound = {
+			sound = {
 				filename = "__base__/sound/steam-engine-90bpm.ogg",
-				volume = 0.8
+				volume = 0.8,
 			},
 			match_speed_to_activity = true,
 		},

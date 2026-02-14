@@ -54,11 +54,11 @@ entities = {
 	y_loco_desw_blue = "y_loco_desw_blue",
 	y_loco_ses_std = "y_loco_ses_std",
 	y_loco_ses_red = "y_loco_ses_red",
-	y_loco_desw = "y_loco_desw"
+	y_loco_desw = "y_loco_desw",
 }
 
 local function IngredientInList(name, recipe)
-	if entities[name] and entities[recipe] == nil and recipe ~= name.."-recycling" then
+	if entities[name] and entities[recipe] == nil and recipe ~= name .. "-recycling" then
 		--log("removing " .. name)
 		entities[name] = nil
 	end
@@ -77,12 +77,12 @@ if settings.startup["yir_disable_content"].value == true then
 	end
 
 	for entity, recipe in pairs(entities) do
-		log("Deleting "..entity)
+		log("Deleting " .. entity)
 
 		data.raw["item"][entity] = nil
 		data.raw["item-with-entity-data"][entity] = nil
 		data.raw["recipe"][recipe] = nil
-		data.raw["recipe"][recipe.."-recycling"] = nil
+		data.raw["recipe"][recipe .. "-recycling"] = nil
 		data.raw["locomotive"][entity] = nil
 		data.raw["fluid-wagon"][entity] = nil
 		data.raw["cargo-wagon"][entity] = nil

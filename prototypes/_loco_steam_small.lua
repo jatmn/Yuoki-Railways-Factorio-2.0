@@ -2,25 +2,25 @@ functions = require("lib.functions")
 local trivial_smoke = require("__base__.prototypes.entity.smoke-animations").trivial_smoke
 
 data:extend({
-	trivial_smoke {
+	trivial_smoke({
 		name = "yir_loco_smoke_dark",
-		color = {r = 0.3, g = 0.3, b = 0.3, a = 1},
+		color = { r = 0.3, g = 0.3, b = 0.3, a = 1 },
 		duration = 150,
 		spread_duration = 100,
 		fade_away_duration = 100,
 		start_scale = 0.4,
 		end_scale = 1.5,
-    	affected_by_wind = true
-	},
+		affected_by_wind = true,
+	}),
 	{
 		type = "locomotive",
 		name = "y_loco_ses_std",
 		icon = "__yi_railway__/graphics/icons/railway/sea-ss-icon.png",
 		icon_size = 64,
 		max_health = 700,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 500,
 		max_speed = 0.6,
 		max_power = "300kW",
@@ -32,68 +32,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 1,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "yir_loco_smoke_dark",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -2},
+					position = { 0, -2 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 	},
 
@@ -103,9 +97,9 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/sea-sr-icon.png",
 		icon_size = 64,
 		max_health = 800,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 500,
 		max_speed = 0.6,
 		max_power = "300kW",
@@ -117,68 +111,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 1,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "yir_loco_smoke_dark",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -2},
+					position = { 0, -2 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 	},
 })

@@ -7,9 +7,9 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/emd-1500_blue_icon.png",
 		icon_size = 64,
 		max_health = 800,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 1500,
 		max_speed = 0.5,
 		max_power = "800kW",
@@ -21,67 +21,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
 		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 2,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -0.5},
+					position = { 0, -0.5 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 		wheels = functions.standard_train_wheels,
 	},
@@ -92,9 +87,9 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/emd-1500_blue_icon.png",
 		icon_size = 64,
 		max_health = 800,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 1500,
 		max_speed = 0.6,
 		max_power = "900kW",
@@ -106,68 +101,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 2,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -0.5},
+					position = { 0, -0.5 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 		wheels = functions.standard_train_wheels,
 	},
@@ -178,9 +167,9 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/emd-1500_black_icon.png",
 		icon_size = 64,
 		max_health = 850,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 1500,
 		max_speed = 0.5,
 		max_power = "800kW",
@@ -192,68 +181,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -0.5},
+					position = { 0, -0.5 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 		wheels = functions.standard_train_wheels,
 	},
@@ -264,9 +247,9 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/railway/DESW90-BL-icon.png",
 		icon_size = 64,
 		max_health = 850,
-		collision_box = {{-0.6, -1.2}, {0.6, 1.2}},
-		selection_box = {{-0.9, -2}, {0.9, 2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.2 }, { 0.6, 1.2 } },
+		selection_box = { { -0.9, -2 }, { 0.9, 2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 1500,
 		max_speed = 0.6,
 		max_power = "900kW",
@@ -278,68 +261,62 @@ data:extend({
 		connection_distance = 4,
 		joint_distance = 2,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
-			{type = "explosion",decrease = 15,percent = 30},
-			{type = "acid",decrease = 10,percent = 20}
+		resistances = {
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, -0.5},
+					position = { 0, -0.5 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 		wheels = functions.standard_train_wheels,
 	},

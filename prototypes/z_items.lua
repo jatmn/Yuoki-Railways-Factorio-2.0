@@ -1,6 +1,6 @@
 --machines
 data:extend({
-   {
+	{
 		type = "item",
 		name = "yir_factory_stuff",
 		icon_size = 64,
@@ -10,8 +10,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_stuff",
 		weight = 1000000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_diesel_monument",
 		icon_size = 64,
@@ -21,8 +21,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_diesel_monument",
 		weight = 1000000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_future_monument",
 		icon = "__yi_railway__/graphics/icons/factories/yir_future_monument_icon.png",
@@ -32,9 +32,9 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_future_monument",
 		weight = 1000000,
-   },
+	},
 
-   {
+	{
 		type = "item",
 		name = "yir_factory_loco",
 		icon_size = 64,
@@ -44,8 +44,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_loco",
 		weight = 100000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_factory_wagon",
 		icon_size = 64,
@@ -55,8 +55,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_wagon",
 		weight = 100000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_factory_tiles",
 		icon_size = 64,
@@ -66,8 +66,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_tiles",
 		weight = 100000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_factory_material",
 		icon_size = 64,
@@ -77,8 +77,8 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_material",
 		weight = 100000,
-   },
-   {
+	},
+	{
 		type = "item",
 		name = "yir_factory_chemical",
 		icon = "__yi_railway__/graphics/icons/factories/chemie_32.png",
@@ -88,7 +88,7 @@ data:extend({
 		stack_size = 10,
 		place_result = "yir_factory_chemical",
 		weight = 100000,
-   },
+	},
 })
 --items
 data:extend({
@@ -365,12 +365,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "y_tgb",
 			condition_size = 3,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -381,12 +380,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "y_tring",
 			condition_size = 3,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -397,12 +395,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "y_path_checker",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -413,12 +410,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "y_path_science",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -429,12 +425,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "y_path_labor",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -456,12 +451,11 @@ data:extend({
 		order = "brick-1",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "yir_brick1_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -472,12 +466,11 @@ data:extend({
 		order = "ground-3",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "yir_muster1_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -491,8 +484,8 @@ data:extend({
 		place_as_tile = {
 			result = "yir_metal2_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -503,9 +496,7 @@ data:extend({
 		order = "metal-3",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile = {result = "yir_metal3_tile",
-		condition_size = 2,
-		condition = {layers={water_tile=true}}}
+		place_as_tile = { result = "yir_metal3_tile", condition_size = 2, condition = { layers = { water_tile = true } } },
 	},
 	{
 		type = "item",
@@ -519,8 +510,8 @@ data:extend({
 		place_as_tile = {
 			result = "yir_metal4_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -531,12 +522,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "yir_stony_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 
 	{
@@ -548,12 +538,11 @@ data:extend({
 		order = "brick-1",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "yir_brick2_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 	{
 		type = "item",
@@ -564,12 +553,11 @@ data:extend({
 		order = "b[concrete]",
 		stack_size = 100,
 		weight = 10000,
-		place_as_tile =
-		{
+		place_as_tile = {
 			result = "yir_grating_tile",
 			condition_size = 2,
-			condition = {layers={water_tile=true}}
-		}
+			condition = { layers = { water_tile = true } },
+		},
 	},
 })
 --wagons
@@ -743,7 +731,6 @@ data:extend({
 		weight = 200000,
 	},
 
-
 	{
 		type = "item",
 		name = "yir_4acw_coal",
@@ -788,7 +775,6 @@ data:extend({
 		place_result = "yir_4acw_copper",
 		weight = 200000,
 	},
-
 
 	{
 		type = "item",
@@ -889,7 +875,6 @@ data:extend({
 		place_result = "yir_4acw_oceanblue",
 		weight = 200000,
 	},
-
 
 	{
 		type = "item",
@@ -1070,7 +1055,6 @@ data:extend({
 		place_result = "yir_loco_fut_red",
 		weight = 200000,
 	},
-
 
 	{
 		type = "item",
