@@ -364,6 +364,10 @@ data:extend({
 			},
 			{
 				type = "unlock-recipe",
+				recipe = "yir_fuel_diesel",
+			},
+			{
+				type = "unlock-recipe",
 				recipe = "yir_fuel_fluid_u1",
 			},
 			{

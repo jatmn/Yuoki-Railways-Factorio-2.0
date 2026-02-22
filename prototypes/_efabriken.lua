@@ -493,6 +493,8 @@ data:extend({
 		collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
 		selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
 		fast_replaceable_group = "assembling-machine",
+		circuit_wire_max_distance = 9,
+		circuit_connector = circuit_connector_definitions["assembling-machine"],
 		fluid_boxes = {
 			{
 				volume = 200,
@@ -501,10 +503,34 @@ data:extend({
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = { { flow_direction = "input", direction = defines.direction.south, position = {
-					0,
-					1,
-				} } },
+				pipe_connections = {
+					{
+						flow_direction = "input",
+						direction = defines.direction.south,
+						position = {
+							0,
+							1,
+						}
+					}
+				},
+			},
+			{
+				volume = 200,
+				production_type = "input",
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = -1,
+				pipe_connections = {
+					{
+						flow_direction = "input",
+						direction = defines.direction.north,
+						position = {
+							0,
+							-1,
+						}
+					}
+				},
 			},
 		},
 		graphics_set = {

@@ -608,6 +608,7 @@ data:extend({
 		results = {
 			{ type = "item", name = "yir_fuel_fluid_u2", amount = 100 },
 		},
+		order = "j",
 	},
 	{
 		type = "recipe",
@@ -621,6 +622,7 @@ data:extend({
 		results = {
 			{ type = "item", name = "yir_fuel_fluid_u2", amount = 100 },
 		},
+		order = "h",
 	},
 	{
 		type = "recipe",
@@ -634,16 +636,34 @@ data:extend({
 		results = {
 			{ type = "item", name = "yir_fuel_fluid_u2", amount = 100 },
 		},
+		order = "i",
 	},
 	{
 		type = "recipe",
 		name = "yir_fuel_energy_u1",
 		category = "advanced-crafting",
+		additional_categories = {"yir_fuel"},
 		enabled = false,
 		energy_required = 5,
 		ingredients = {},
 		results = {
 			{ type = "item", name = "yir_fuel_energy_u1", amount = 1 },
+		},
+		order = "k",
+	},
+	{
+		type = "recipe",
+		name = "yir_fuel_diesel",
+		category = "yir_fuel",
+		enabled = false,
+		energy_required = 2,
+		ingredients = {
+			{ type = "fluid", name = "petroleum-gas", amount = 16 },
+			{ type = "fluid", name = "light-oil", amount = 8 },
+			{ type = "item", name = "iron-plate", amount = 2 },
+		},
+		results = {
+			{ type = "item", name = "yir_fuel_diesel", amount = 1 },
 		},
 	},
 	{
@@ -730,21 +750,6 @@ data:extend({
 		},
 		results = {
 			{ type = "item", name = "yir_diesel_coin", amount = 1 },
-		},
-	},
-	{
-		type = "recipe",
-		name = "yir_fuel_diesel",
-		category = "chemistry",
-		energy_required = 60,
-		hidden = true,
-		ingredients = {
-			{ type = "fluid", name = "petroleum-gas", amount = 1 },
-			{ type = "fluid", name = "light-oil", amount = 1 },
-			{ type = "item", name = "iron-plate", amount = 2 },
-		},
-		results = {
-			{ type = "item", name = "yir_fuel_diesel", amount = 1 },
 		},
 	},
 	{

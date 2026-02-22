@@ -60,6 +60,7 @@ data:extend({
 		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
+		wheels = functions.standard_train_wheels,
 	},
 
 	{
@@ -80,6 +81,7 @@ data:extend({
 		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
+		wheels = functions.standard_train_wheels,
 	},
 
 	{
@@ -100,6 +102,7 @@ data:extend({
 		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 8,
+		wheels = functions.standard_train_wheels,
 	},
 
 	{
