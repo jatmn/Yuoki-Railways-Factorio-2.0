@@ -141,8 +141,7 @@ data:extend({
 		subgroup = "yir_important",
 		order = "e",
 		stack_size = 50,
-		hidden = true,
-		fuel_value = "50MJ",
+		fuel_value = "20MJ",
 		fuel_category = "yr_diesel",
 	},
 	{
@@ -175,7 +174,7 @@ data:extend({
 		icon = "__yi_railway__/graphics/icons/fuel_light.png",
 		subgroup = "yir_important",
 		order = "h",
-		stack_size = 2000,
+		stack_size = 1200,
 		fuel_value = "1MJ",
 		fuel_category = "yr_diesel",
 	},
