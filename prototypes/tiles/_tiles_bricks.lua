@@ -1,4 +1,6 @@
 local tile_collision_masks = require("__base__/prototypes/tile/tile-collision-masks")
+local concrete_sounds = require("__base__/prototypes/tile/tile-sounds").walking.concrete
+local stone_path_vehicle_speed_modifier = data.raw.tile["stone-path"].vehicle_friction_modifier
 
 data:extend({
 	{

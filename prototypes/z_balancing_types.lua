@@ -255,7 +255,6 @@ local util = {
 				local item = data.raw["item"][name]
 
 				if vehicle ~= nil then
-					vehicle.crash_trigger = functions.crash_trigger
 					vehicle.drive_over_tie_trigger = functions.yir_drive_over_tie
 					vehicle.pictures = makePictures(datas, entityData.modname)
 					vehicle.minimap_representation = data.raw[vType][vType].minimap_representation

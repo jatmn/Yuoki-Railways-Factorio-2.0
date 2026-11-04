@@ -8,6 +8,7 @@ Date: 4.11.2026
     - Removed prototype properties that Factorio no longer reads
   Bugfixes:
     - Fixed loading with "disable content" enabled while the Recycler mod is active
+    - Fixed floor tiles having no footstep sound and no stone-path vehicle speed bonus (they referenced base-game values that mods can no longer access)
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.1
 Date: 11.3.2026
