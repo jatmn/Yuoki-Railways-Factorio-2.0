@@ -20,7 +20,7 @@ class ReleaseTests(unittest.TestCase):
         PackageSourceTests.setUp(self)
         shutil.copy(Path(__file__).with_name('prepare_release.py'), self.root / 'tools')
         info = json.loads((self.root / 'info.json').read_text())
-        info.update(version='1.3.1', factorio_version='2.0', dependencies=['base >= 2.0.43', '? Yuoki >= 1.2.13'])
+        info.update(version='1.3.1', factorio_version='2.1', dependencies=['base >= 2.1.0', '? Yuoki >= 1.2.13'])
         (self.root / 'info.json').write_text(json.dumps(info))
         (self.root / '.github').mkdir()
         (self.root / '.github/.release-please-manifest.json').write_text('{".": "1.3.1"}\n')

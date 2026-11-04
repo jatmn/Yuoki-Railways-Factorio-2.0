@@ -5,7 +5,7 @@ data:extend({
 		type = "tile",
 		name = "yir_muster1_tile",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "yir_muster1_tile" },
+		minable = { mining_time = 0.5, result = "yir_muster1_tile" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
@@ -46,7 +46,6 @@ data:extend({
 		},
 		walking_sound = concrete_sounds,
 		map_color = { r = 90, g = 70, b = 50 },
-		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier,
 	},
 })

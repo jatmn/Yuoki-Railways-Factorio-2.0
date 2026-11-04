@@ -7,9 +7,9 @@
 "author": "Yuoki Tani",
 "contact": "https://discord.gg/fM6NjWabAA",
 "homepage": "https://github.com/jatmn/Yuoki-Railways-Factorio-2.0",
-"factorio_version": "2.0",
+"factorio_version": "2.1",
 "dependencies": [
-    "base >= 2.0.43",
+    "base >= 2.1.0",
     "? Yuoki >= 1.2.13"
 ],
 "description": "Yuoki Industries - Railways is a decorative railway mod"

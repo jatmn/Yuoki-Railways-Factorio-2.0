@@ -5,7 +5,7 @@ data:extend({
 		type = "tile",
 		name = "y_tgb",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "y_tgb" },
+		minable = { mining_time = 0.5, result = "y_tgb" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.2,
@@ -47,7 +47,6 @@ data:extend({
 		walking_sound = concrete_sounds,
 		-- pollution_absorption_per_second = 0,
 		map_color = { r = 90, g = 70, b = 50 },
-		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier,
 	},
 })

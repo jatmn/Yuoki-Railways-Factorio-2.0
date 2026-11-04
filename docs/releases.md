@@ -49,7 +49,7 @@ version) and copy it unchanged into Factorio's mods directory. GitHub's automati
 use the unversioned folder **yi_railway**. See [info.json](../info.json) for the
 current mod version, Factorio series and dependency constraints. Install required
 dependencies separately; this ZIP does not bundle other mods.
-This automation preserves the declared Factorio **2.0** target.
+This automation preserves the declared Factorio **2.1** target.
 
 ## Release failures and recovery
 

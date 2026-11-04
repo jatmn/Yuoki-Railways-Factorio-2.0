@@ -5,7 +5,7 @@ data:extend({
 		type = "tile",
 		name = "yir_brick1_tile",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "yir_brick1_tile" },
+		minable = { mining_time = 0.5, result = "yir_brick1_tile" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.4,
@@ -46,7 +46,6 @@ data:extend({
 		},
 
 		map_color = { r = 90, g = 70, b = 50 },
-		ageing = 0,
 		walking_sound = concrete_sounds,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier,
 	},
@@ -55,7 +54,7 @@ data:extend({
 		type = "tile",
 		name = "yir_brick2_tile",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "yir_brick2_tile" },
+		minable = { mining_time = 0.5, result = "yir_brick2_tile" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.4,
@@ -96,7 +95,6 @@ data:extend({
 		},
 		walking_sound = concrete_sounds,
 		map_color = { r = 90, g = 70, b = 50 },
-		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier,
 	},
 })

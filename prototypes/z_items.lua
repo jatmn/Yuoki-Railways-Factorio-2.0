@@ -131,7 +131,7 @@ data:extend({
 		order = "d",
 		stack_size = 30,
 		fuel_value = "35MJ",
-		fuel_category = "chemical",
+		fuel_categories = { "chemical" },
 	},
 	{
 		type = "item",
@@ -142,7 +142,7 @@ data:extend({
 		order = "e",
 		stack_size = 50,
 		fuel_value = "20MJ",
-		fuel_category = "yr_diesel",
+		fuel_categories = { "yr_diesel" },
 	},
 	{
 		type = "item",
@@ -153,7 +153,7 @@ data:extend({
 		order = "f",
 		stack_size = 30,
 		fuel_value = "40MJ",
-		fuel_category = "chemical",
+		fuel_categories = { "chemical" },
 	},
 	{
 		type = "item",
@@ -165,7 +165,7 @@ data:extend({
 		stack_size = 2500,
 		hidden = true,
 		fuel_value = "2MJ",
-		fuel_category = "yr_diesel",
+		fuel_categories = { "yr_diesel" },
 	},
 	{
 		type = "item",
@@ -176,7 +176,7 @@ data:extend({
 		order = "h",
 		stack_size = 1200,
 		fuel_value = "1MJ",
-		fuel_category = "yr_diesel",
+		fuel_categories = { "yr_diesel" },
 	},
 	{
 		type = "item",
@@ -188,7 +188,7 @@ data:extend({
 		stack_size = 2500,
 		hidden = true,
 		fuel_value = "3MJ",
-		fuel_category = "yr_diesel",
+		fuel_categories = { "yr_diesel" },
 	},
 	{
 		type = "item",
@@ -200,7 +200,7 @@ data:extend({
 		stack_size = 2000,
 		weight = 500,
 		fuel_value = "2MJ",
-		fuel_category = "yr_future",
+		fuel_categories = { "yr_future" },
 	},
 
 	{
