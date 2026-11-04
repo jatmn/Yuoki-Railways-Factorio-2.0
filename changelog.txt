@@ -1,18 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 4.11.2026
+  Changes:
+    - Updated for Factorio 2.1 (requires base 2.1; Space Age, Quality, Recycler and Elevated Rails remain optional)
+    - Optional Yuoki Industries dependency now requires Yuoki 1.3.2 or newer (the Factorio 2.1 release)
+    - Restored the intended module slot on the Locomotive Workshop, Wagon Workshop, Tile-Factory and Train Material Factory (their old module setting was ignored since Factorio 2.0)
+    - Removed prototype properties that Factorio no longer reads
+  Bugfixes:
+    - Fixed loading with "disable content" enabled while the Recycler mod is active
+---------------------------------------------------------------------------------------------------
 Version: 1.3.1
 Date: 11.3.2026
   Changes:
     - TheKingJo: re-enabled fuel canister and adjusted values
     - TheKingJo: decreased diesel stack size
     - TheKingJo: made mod chemical plant circuit connectable; added second fluid input
-    - Updated for Factorio 2.1 (requires base 2.1; Space Age, Quality, Recycler and Elevated Rails remain optional)
-    - Optional Yuoki Industries dependency now requires Yuoki 1.3.2 or newer (the Factorio 2.1 release)
-    - Restored the intended module slot on the Locomotive Workshop, Wagon Workshop, Tile-Factory and Train Material Factory (their old module setting was ignored since Factorio 2.0)
-    - Removed prototype properties that Factorio no longer reads
   Bugfixes:
     - TheKingJo: added missing wheels to 3 waggons
     - TheKingJo: changelog year date was wrong
-    - Fixed loading with "disable content" enabled while the Recycler mod is active
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 13.2.2026
