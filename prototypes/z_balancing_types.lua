@@ -255,7 +255,6 @@ local util = {
 				local item = data.raw["item"][name]
 
 				if vehicle ~= nil then
-					vehicle.crash_trigger = functions.crash_trigger
 					vehicle.drive_over_tie_trigger = functions.yir_drive_over_tie
 					vehicle.pictures = makePictures(datas, entityData.modname)
 					vehicle.minimap_representation = data.raw[vType][vType].minimap_representation
@@ -274,6 +273,16 @@ local util = {
 					else
 						vehicle.resistances = vanillaResistance
 						vehicle.working_sound = sounds.train_wagon_wheels
+					end
+					-- Match vanilla rolling stock, which the quality mod opts into Factorio 2.1 quality scaling.
+					if feature_flags["quality"] then
+						if vType == "locomotive" then
+							vehicle.quality_affects_max_speed = true
+						elseif vType == "cargo-wagon" then
+							vehicle.quality_affects_inventory_size = true
+						elseif vType == "fluid-wagon" then
+							vehicle.quality_affects_capacity = true
+						end
 					end
 				end
 

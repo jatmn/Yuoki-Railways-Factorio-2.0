@@ -1,15 +1,18 @@
 local tile_collision_masks = require("__base__/prototypes/tile/tile-collision-masks")
+local concrete_sounds = require("__base__/prototypes/tile/tile-sounds").walking.concrete
+local stone_path_vehicle_speed_modifier = data.raw.tile["stone-path"].vehicle_friction_modifier
 
 data:extend({
 	{
 		type = "tile",
 		name = "yir_stony_tile",
 		needs_correction = false,
-		minable = { hardness = 0.2, mining_time = 0.5, result = "yir_stony_tile" },
+		minable = { mining_time = 0.5, result = "yir_stony_tile" },
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = {
@@ -47,7 +50,6 @@ data:extend({
 		walking_sound = concrete_sounds,
 		-- pollution_absorption_per_second = 0,
 		map_color = { r = 90, g = 70, b = 50 },
-		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier,
 	},
 })

@@ -91,7 +91,8 @@ if settings.startup["yir_disable_content"].value == true then
 			relevant = false
 			if tech.effects ~= nil then
 				for i = #tech.effects, 1, -1 do
-					if tech.effects[i].recipe == recipe then
+					-- Factorio 2.1's recycler mod unlocks each "-recycling" recipe through the recycling technology.
+					if tech.effects[i].recipe == recipe or tech.effects[i].recipe == recipe .. "-recycling" then
 						relevant = true
 						table.remove(tech.effects, i)
 					end

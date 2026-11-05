@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_path_labor",
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -17,7 +17,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_path_science",
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -31,7 +31,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_tring",
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_path_checker",
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -61,7 +61,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_tgb",
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -83,7 +83,7 @@ data:extend({
 			{ type = "item", name = "yir_color_red", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_brick1_tile", amount = 12 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		order = "brick-1",
 	},
 	{
@@ -96,7 +96,7 @@ data:extend({
 			{ type = "item", name = "yir_color_red", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_brick2_tile", amount = 12 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		order = "brick-2",
 	},
 	{
@@ -108,7 +108,7 @@ data:extend({
 			{ type = "item", name = "iron-stick", amount = 6 },
 		},
 		results = { { type = "item", name = "yir_grating_tile", amount = 3 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 	},
 	{
 		type = "recipe",
@@ -120,7 +120,7 @@ data:extend({
 			{ type = "item", name = "coal", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_muster1_tile", amount = 8 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 		order = "ground-3",
 	},
 	{
@@ -132,7 +132,7 @@ data:extend({
 			{ type = "item", name = "stone-brick", amount = 4 },
 		},
 		results = { { type = "item", name = "yir_stony_tile", amount = 4 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 	},
 	{
 		type = "recipe",
@@ -143,7 +143,7 @@ data:extend({
 			{ type = "item", name = "iron-plate", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_metal2_tile", amount = 4 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 	},
 	{
 		type = "recipe",
@@ -154,7 +154,7 @@ data:extend({
 			{ type = "item", name = "iron-plate", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_metal3_tile", amount = 4 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 	},
 	{
 		type = "recipe",
@@ -165,7 +165,7 @@ data:extend({
 			{ type = "item", name = "iron-plate", amount = 1 },
 		},
 		results = { { type = "item", name = "yir_metal4_tile", amount = 4 } },
-		category = "yir_rc_tiles",
+		categories = { "yir_rc_tiles" },
 	},
 })
 --locos
@@ -173,7 +173,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_fut_red",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -189,7 +189,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_steam_wt450",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 1,
 		ingredients = {
@@ -204,7 +204,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_del_KR",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -221,7 +221,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_fesw_op",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -236,7 +236,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_desw",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -252,7 +252,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_desw_orange",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -269,7 +269,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_desw_blue",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -286,7 +286,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_ses_std",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -303,7 +303,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_ses_red",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -319,7 +319,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_emd1500black_v2",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -336,7 +336,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_emd1500blue_v2",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -352,7 +352,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_del_mk1400",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -369,7 +369,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_sel_blue",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -386,7 +386,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_loco_de_bluegray",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -403,7 +403,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_fs_steam_green",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -420,7 +420,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_emd3000_white",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -436,7 +436,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_emd1500blue",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -452,7 +452,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_loco_emd1500black",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -486,7 +486,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_diesel_monument",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -517,7 +517,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_factory_loco",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -533,7 +533,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_factory_wagon",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -549,7 +549,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_factory_tiles",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -565,7 +565,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_factory_material",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -581,7 +581,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_factory_stuff",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -599,7 +599,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_fluid_u3",
-		category = "yir_fuel",
+		categories = { "yir_fuel" },
 		enabled = false,
 		energy_required = 2,
 		ingredients = {
@@ -613,7 +613,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_fluid_u2",
-		category = "yir_fuel",
+		categories = { "yir_fuel" },
 		enabled = false,
 		energy_required = 2,
 		ingredients = {
@@ -627,7 +627,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_fluid_u1",
-		category = "yir_fuel",
+		categories = { "yir_fuel" },
 		enabled = false,
 		energy_required = 2,
 		ingredients = {
@@ -641,8 +641,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_energy_u1",
-		category = "advanced-crafting",
-		additional_categories = {"yir_fuel"},
+		categories = { "advanced-crafting", "yir_fuel" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {},
@@ -654,7 +653,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_diesel",
-		category = "yir_fuel",
+		categories = { "yir_fuel" },
 		enabled = false,
 		energy_required = 2,
 		ingredients = {
@@ -669,7 +668,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_coin",
-		category = "yir_rc_stuff",
+		categories = { "yir_rc_stuff" },
 		enabled = false,
 		energy_required = 300,
 		ingredients = {
@@ -684,7 +683,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_lamp_clock",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -699,7 +698,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_lamp_old1",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -713,7 +712,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_lamp_modern",
-		category = "crafting",
+		categories = { "crafting" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -727,7 +726,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_future_coin",
-		category = "yir_rc_future_monument",
+		categories = { "yir_rc_future_monument" },
 		enabled = false,
 		energy_required = 300,
 		ingredients = {
@@ -741,7 +740,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_diesel_coin",
-		category = "yir_rc_diesel_monument",
+		categories = { "yir_rc_diesel_monument" },
 		enabled = false,
 		energy_required = 300,
 		ingredients = {
@@ -755,7 +754,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fuel_coks",
-		category = "chemistry",
+		categories = { "chemistry" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -768,7 +767,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_frame_loco_future",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 45,
 		ingredients = {
@@ -785,7 +784,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_frame_loco_diesel",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 30,
 		ingredients = {
@@ -803,7 +802,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_frame_loco_steam",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 15,
 		ingredients = {
@@ -820,7 +819,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_frame_waggon",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 15,
 		ingredients = {
@@ -835,7 +834,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_radsatz_locos",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 30,
 		ingredients = {
@@ -849,7 +848,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_radsatz_waggon",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 30,
 		ingredients = {
@@ -863,7 +862,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_color_white",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -876,7 +875,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_color_green",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -889,7 +888,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_color_black",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -902,7 +901,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_color_blue",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -915,7 +914,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_color_red",
-		category = "yir_rc_material",
+		categories = { "yir_rc_material" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -931,7 +930,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_vc",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -948,7 +947,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fw4_vc",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -965,7 +964,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_fw4a_tank_oil",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -982,7 +981,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_wagon_tank_orange_small",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -999,7 +998,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_wagon_tank_blue_small",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1016,7 +1015,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_tf",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1032,7 +1031,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_mun",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1047,7 +1046,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_gold",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1063,7 +1062,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_closed",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1079,7 +1078,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_wood",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1094,7 +1093,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_stone",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1109,7 +1108,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_copper",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1124,7 +1123,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_iron",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1139,7 +1138,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_coal",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1154,7 +1153,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_2acw_wood",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1169,7 +1168,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_2acw_3blocks",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1184,7 +1183,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_trans",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1199,7 +1198,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_coal",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1214,7 +1213,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_copper",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1229,7 +1228,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_iron",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1244,7 +1243,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_stone",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1259,7 +1258,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_purple",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 20,
 		ingredients = {
@@ -1278,7 +1277,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_oceanblue",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1294,7 +1293,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_4acw_grey",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1310,7 +1309,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_tank_fm2",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1325,7 +1324,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_tank_fm1",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1340,7 +1339,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_tender_green",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1356,7 +1355,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_tender_black",
-		category = "yir_rc_wsl",
+		categories = { "yir_rc_wsl" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1372,7 +1371,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_hopper_yellow",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1389,7 +1388,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_corn_blue",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1406,7 +1405,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_corn_green",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1422,7 +1421,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_zement_white",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1439,7 +1438,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_wagon_zement_gray",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
@@ -1456,7 +1455,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_wagon_tank_orange",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1473,7 +1472,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_wagon_tank_blue",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
@@ -1490,7 +1489,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "yir_wagon2a_closed",
-		category = "yir_rc_wsw",
+		categories = { "yir_rc_wsw" },
 		enabled = false,
 		energy_required = 5,
 		ingredients = {

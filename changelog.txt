@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 4.11.2026
+  Changes:
+    - Updated for Factorio 2.1 (requires base 2.1; Space Age, Quality, Recycler and Elevated Rails remain optional)
+    - Optional Yuoki Industries dependency now requires Yuoki 1.3.2 or newer (the Factorio 2.1 release)
+    - Restored the intended module slot on the Locomotive Workshop, Wagon Workshop, Tile-Factory and Train Material Factory (their old module setting was ignored since Factorio 2.0)
+    - Removed prototype properties that Factorio no longer reads
+    - Locomotive max speed, cargo wagon inventory and fluid wagon capacity now scale with quality, like vanilla rolling stock
+    - Tall locomotives are fully shown in tooltips and entity previews again
+  Bugfixes:
+    - Fixed loading with "disable content" enabled while the Recycler mod is active
+    - Fixed floor tiles having no footstep sound and no stone-path vehicle speed bonus (they referenced base-game values that mods can no longer access)
+    - Fixed floor tiles being drawn as natural terrain, which let vanilla floors, landfill and planet terrain draw their edges over them
+---------------------------------------------------------------------------------------------------
 Version: 1.3.1
 Date: 11.3.2026
   Changes:

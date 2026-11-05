@@ -26,7 +26,6 @@ data:extend({
 		name = "y_wagon_tank_fm2",
 		icon = "__yi_railway__/graphics/icons/railway/4atw_fm2_icon.png",
 		icon_size = 64,
-		inventory_size = 0,
 		max_health = 600,
 		capacity = 50000,
 		collision_box = { { -0.6, -2.4 }, { 0.6, 2.4 } },

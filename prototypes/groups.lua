@@ -8,7 +8,6 @@ data:extend({
 		name = "yuoki_railway_parts",
 		icon = "__yi_railway__/graphics/icons/yir_fac_cagegory.png",
 		icon_size = 80,
-		inventory_order = "x",
 		order = "yi-a",
 	},
 	--Vehicle Group
@@ -17,7 +16,6 @@ data:extend({
 		name = "yuoki_railway",
 		icon = "__yi_railway__/graphics/icons/yuoki_railway.png",
 		icon_size = 128,
-		inventory_order = "y",
 		order = "yi-b",
 	},
 
