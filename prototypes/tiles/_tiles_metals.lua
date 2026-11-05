@@ -11,7 +11,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = { { picture = "__yi_railway__/graphics/path_tiles/metal_gitter.png", count = 1, size = 1 } },
@@ -53,7 +54,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = { { picture = "__yi_railway__/graphics/path_tiles/metal_3.png", count = 1, size = 1 } },
@@ -95,7 +97,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.3,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = { { picture = "__yi_railway__/graphics/path_tiles/metal_4.png", count = 1, size = 1 } },

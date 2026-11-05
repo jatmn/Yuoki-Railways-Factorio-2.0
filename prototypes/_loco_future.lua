@@ -9,6 +9,7 @@ data:extend({
 		max_health = 1200,
 		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
 		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box_vertical_extension = 1,
 		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,

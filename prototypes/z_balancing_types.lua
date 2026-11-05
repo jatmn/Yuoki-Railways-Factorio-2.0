@@ -274,6 +274,16 @@ local util = {
 						vehicle.resistances = vanillaResistance
 						vehicle.working_sound = sounds.train_wagon_wheels
 					end
+					-- Match vanilla rolling stock, which the quality mod opts into Factorio 2.1 quality scaling.
+					if feature_flags["quality"] then
+						if vType == "locomotive" then
+							vehicle.quality_affects_max_speed = true
+						elseif vType == "cargo-wagon" then
+							vehicle.quality_affects_inventory_size = true
+						elseif vType == "fluid-wagon" then
+							vehicle.quality_affects_capacity = true
+						end
+					end
 				end
 
 				if item ~= nil then

@@ -11,7 +11,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.4,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = {
@@ -60,7 +61,8 @@ data:extend({
 		mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
 		collision_mask = tile_collision_masks.ground(),
 		walking_speed_modifier = 1.4,
-		layer = 59,
+		layer_group = "ground-artificial",
+		layer = 8,
 		decorative_removal_probability = 1.0,
 		variants = {
 			main = {
